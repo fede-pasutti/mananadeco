@@ -1,0 +1,289 @@
+header{
+    background-color: $rosa-suave;
+    height: 70px;
+    align-content: center;
+}
+
+    
+.logoHead{
+    height: 66px;
+    margin: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    #menu{
+        display: block;
+        flex-direction: column;
+    }
+    
+    #menu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #menu #itemMenu {
+        display: block;
+    }
+
+    #menu #itemMenu a {
+        color: black;
+        background-color: none; 
+        text-decoration: none;
+        padding: 8px 22px;
+        background-color: #FAD8E1;
+        display: block;
+        height: 35px;
+        width: 150px;
+        text-align: right
+    }
+
+    #menu #itemMenu a:hover{
+    background-color: #FF7D89;
+    }
+
+    #menu .desplegado{
+        display: none;
+    }
+    
+    #menu:hover .desplegado {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        right: 10px;
+    }
+
+    .iconMenu{
+        height: 38px;
+        margin: 16px;
+    }   
+
+    .icons{
+        display: none;
+    }
+
+    .iconsNav{
+        height: 48px;
+    }
+
+    #versionDesplegada a{
+        color: black;
+        background-color: none; 
+        text-decoration: none;
+        padding: 8px 22px;
+        background-color: #FAD8E1;
+        display: block;
+        height: 35px;
+        width: 150px;
+        text-align: right;
+    }
+
+    #versionDesplegada a:hover{
+        background-color: #FF7D89;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    #menu{
+        display: block;
+        flex-direction: column;
+    }
+    
+    #menu ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #menu #itemMenu {
+        display: block;
+    }
+
+    #menu #itemMenu a {
+        color: black;
+        background-color: none; 
+        text-decoration: none;
+        padding: 8px 22px;
+        background-color: #FAD8E1;
+        display: block;
+        height: 35px;
+        width: 150px;
+        text-align: right
+    }
+
+    #menu #itemMenu a:hover{
+    background-color: #FF7D89;
+    }
+
+    #menu .desplegado{
+        display: none;
+    }
+    
+    #menu:hover .desplegado {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        right: 10px;
+        top: 60px;
+    }
+    
+    .iconMenu{
+        height: 38px;
+        margin: 16px;
+        float: right;
+    }   
+
+    
+    .iconsNav{
+        display: none;
+        height: 48px;
+    }
+
+    #versionDesplegada a{
+        color: black;
+        background-color: none; 
+        text-decoration: none;
+        padding: 8px 22px;
+        background-color: #FAD8E1;
+        display: block;
+        height: 35px;
+        width: 150px;
+        text-align: right;
+    }
+
+    #versionDesplegada a:hover{
+        background-color: #FF7D89;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+
+    #menu{
+    
+        display: flex;
+        flex-direction: row;
+        width: 1900px;
+    }
+
+    #menu ul li{
+        display: inline;
+        float: left;
+    }
+
+    #itemMenu{
+        margin-left: 15px;
+        list-style: none;
+        float: left;
+    }
+
+    .iconMenu{
+        display: none;
+    }   
+    
+    .iconsNav{
+        height: 28px;
+        margin-top: 21px;
+        margin-right: 30px;
+        float: left;
+    }
+
+    .icons{
+        position: absolute;
+        right: 25px;
+    }
+
+    .desplegado{
+        margin-top: 25px;
+        position: absolute;
+        right: 200px;
+    }
+
+    .desplegado a{
+        text-decoration: none;
+        margin-left: 40px;
+        color: white;
+    }
+
+    #menuSelected{
+        color: $rosa-fuerte;
+        font-weight: 800;
+
+    }
+
+    .desplegado a:hover {
+        text-decoration: none;
+        margin-left: 40px;
+        color: $rosa-fuerte;
+    }
+
+    .desplegado #versionDesplegada{
+        display: none;
+    }   
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+    #menu{
+    
+        display: flex;
+        flex-direction: row;
+        width: 1900px;
+    }
+
+    #menu ul li{
+        display: inline;
+        float: left;
+    }
+
+    #itemMenu{
+        margin-left: 15px;
+        list-style: none;
+        float: left;
+    }
+
+    .iconMenu{
+        display: none;
+    }   
+    
+    .iconsNav{
+        height: 28px;
+        margin-top: 21px;
+        margin-right: 30px;
+        float: left;
+    }
+
+    .icons{
+        position: absolute;
+        right: 25px;
+    }
+
+    .desplegado{
+        margin-top: 25px;
+        position: absolute;
+        right: 200px;
+    }
+
+    .desplegado a{
+        text-decoration: none;
+        margin-left: 40px;
+        color: white;
+    }
+
+    #menuSelected{
+        color: $rosa-fuerte;
+        font-weight: 800;
+
+    }
+
+    .desplegado a:hover {
+        text-decoration: none;
+        margin-left: 40px;
+        color: $rosa-fuerte;
+    }
+
+    .desplegado #versionDesplegada{
+        display: none;
+    }   
+}

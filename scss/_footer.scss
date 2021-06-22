@@ -1,0 +1,594 @@
+footer{
+        background-color: $gris-topo;
+    }
+
+.copyrights{
+        background-color: black;     
+    }
+
+.sobreNos__logoFooter{
+    height: 150px;
+}
+
+@media only screen and (max-width: 767px){
+	footer{
+        padding-top: 20px;
+        padding-left: 7%;
+        padding-bottom: 50px;
+        background-color: $gris-topo;
+        color: white;
+        font-weight: 100;
+        align-items: center;
+
+
+        .footer__sobreNos{
+            text-align: center;
+            height: 250px;
+
+            .sobreNos__logoFooter{
+                height: 100px;
+            }
+
+            .sobreNos__solgan{
+                color: white;
+                font-weight: 100;
+            }
+        }
+        
+        .footer__infoSitio{
+            height: 200px;
+        }
+
+        .footer__contactos{
+            height: 200px;
+        }
+
+        h3{
+            color: #FFC2D1;
+            font-weight: 100;
+            margin-top: 25px;
+        }
+
+        li{
+            list-style: none;
+            margin-top: 10px;
+        }
+    }
+    .copyrights{
+        height: 100px;  
+
+        .copyrights__textCopy{
+            color: white;
+            padding: 20px;
+        }
+
+        .copyrights__redes{
+
+            height: 60px;
+            padding-top: 32px;
+
+
+            .redes__boton--rosa{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--rosa{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--rosa:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__red--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .redes__boton--verde{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--verde{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--verde:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__red--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+
+            .redes__boton--azul{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--azul{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--azul:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__red--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+           
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	footer{
+        padding-top: 25px;
+        padding-left: 7%;
+        padding-bottom: 50px;
+        background-color: $gris-topo;
+        color: white;
+        font-weight: 100;
+        
+
+
+        .footer__sobreNos{
+
+            margin-left: 1500px;
+            text-align: center;
+            height: 250px;
+
+            .sobreNos__logoFooter{
+                height: 150px;
+            }
+
+            .sobreNos__solgan{
+                color: white;
+                font-weight: 100;
+            }
+        }
+        
+        .footer__infoSitio{
+           
+            height: 200px;
+        }
+
+        .footer__contactos{
+
+            height: 200px;
+        }
+
+        h3{
+            color: #FFC2D1;
+            font-weight: 100;
+            margin-top: 25px;
+        }
+
+        li{
+            list-style: none;
+            margin-top: 10px;
+        }
+    }
+    .copyrights{
+        height: 60px;
+
+        .copyrights__textCopy{
+            color: white;
+            padding-top: 20px;
+        }
+
+        .copyrights__redes{
+
+            height: 60px;
+            padding: 14px;
+
+
+            .redes__boton--rosa{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 30px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--rosa{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--rosa:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__red--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .redes__boton--verde{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 30px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--verde{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--verde:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__red--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+
+            .redes__boton--azul{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 30px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--azul{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--azul:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__red--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+           
+        }
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px){
+
+	footer{
+        padding-top: 25px;
+        padding-left: 3%;
+        padding-bottom: 50px;
+        background-color: $gris-topo;
+        color: white;
+        font-weight: 100;
+        align-items: center;
+
+
+        .footer_sobreNos{
+
+            margin-left: 150px;
+            text-align: center;
+            height: 250px;
+
+            
+            .sobreNos__solgan{
+                color: white;
+                font-weight: 100;
+            }
+        }
+        
+        .footer__infoSitio{
+           
+            height: 200px;
+        }
+
+        .footer__contactos{
+
+            height: 200px;
+        }
+
+        h3{
+            color: #FFC2D1;
+            font-weight: 100;
+            margin-top: 25px;
+        }
+
+        li{
+            list-style: none;
+            margin-top: 10px;
+        }
+    }
+
+    .copyrights{
+        height: 60px;
+
+        .copyrights__textCopy{
+            color: white;
+            padding: 20px;
+        }
+
+        .copyrights__redes{
+
+            height: 60px;
+            padding-top: 14px;
+
+
+            .redes__boton--rosa{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--rosa{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--rosa:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__red--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .redes__boton--verde{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--verde{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--verde:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__red--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+
+            .redes__boton--azul{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--azul{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--azul:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__red--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+           
+        }
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 2000px){
+	footer{
+        padding-top: 25px;
+        padding-left: 7%;
+        padding-bottom: 50px;
+        background-color: $gris-topo;
+        color: white;
+        font-weight: 100;
+        align-items: center;
+
+
+        .footer__sobreNos{
+
+            margin-left: 1500px;
+            text-align: center;
+            height: 250px;
+
+            .sobreNos__logoFooter{
+                height: 150px;
+            }
+
+            .sobreNos__solgan{
+                color: white;
+                font-weight: 100;
+            }
+        }
+        
+        .footer__infoSitio{
+           
+            height: 200px;
+        }
+
+        .footer__contactos{
+
+            height: 200px;
+        }
+
+        h3{
+            color: #FFC2D1;
+            font-weight: 100;
+            margin-top: 25px;
+        }
+
+        li{
+            list-style: none;
+            margin-top: 10px;
+        }
+    }
+    .copyrights{
+        height: 60px;
+
+        .copyrights__textCopy{
+            color: white;
+            padding: 20px;
+        }
+
+        .copyrights__redes{
+
+            height: 60px;
+            padding: 14px;
+
+
+            .redes__boton--rosa{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--rosa{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--rosa:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__red--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .redes__boton--verde{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--verde{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--verde:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__red--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+
+            .redes__boton--azul{
+                display: inline;
+                float: right;
+                height: 34px;
+                width: 34x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__red--azul{
+                    padding: 8px;
+                    height: 34px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .redes__boton--azul:hover{
+                background-color: transparent;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__red--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+           
+        }
+    }
+}
