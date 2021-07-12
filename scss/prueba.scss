@@ -2,13 +2,13 @@
 @import "colores.scss";
 @import "header.scss";
 @import "footer.scss";
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0px;
     padding: 0px;
-
+    
     h2{
         color: $verde-esmeralada;
     }
@@ -19,152 +19,152 @@
 }
 
 @media only screen and (max-width: 767px) {
-/*contacto*/
-    .fondoContacto {
-        justify-content: center;
-        height: 1000px;
-        background: linear-gradient(#9FC9CC, #FCA0B2);
-
-        .formularioContacto{
-            top: 160px;
+    /*contacto*/
+        .fondoContacto {
             justify-content: center;
-            height: 800px;
-            background-color: white;
-            padding: 35px 50px;
-            border-radius: 30px;
-            margin-top: 70px;
-            text-align: center;
+            height: 1000px;
+            background: linear-gradient(#9FC9CC, #FCA0B2);
 
-            .tituloFormulario{
-                display: flex;
-                flex-direction: row;
+            .formularioContacto{
+                top: 160px;
                 justify-content: center;
-                color: #48A3A8;
-                font-weight: 100;
-                font-size: 36px;
-                text-transform: uppercase;
-            }
+                height: 800px;
+                background-color: white;
+                padding: 35px 50px;
+                border-radius: 30px;
+                margin-top: 70px;
+                text-align: center;
 
-            .campos{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding-top: 25px;
-                height: 300px;
-
-                input{
-                    width: 93%;
-                    height: 35px;
-                    border: solid 2px #48A3A8;
-                    border-radius: 10px;
+                .tituloFormulario{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    color: #48A3A8;
+                    font-weight: 100;
+                    font-size: 36px;
+                    text-transform: uppercase;
                 }
 
-                label{
-                    color: #A1A1A1;
-                    font-size: 12px;
-                    text-align: left;
-                }
-
-                .formularioDer{
-                    text-align: center;
-                    padding-left: 10%;
-                    padding-top: 40px;
-                    text-align: left;
-                    height: 200px;
+                .campos{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    padding-top: 25px;
+                    height: 300px;
 
                     input{
                         width: 93%;
-                        height: 215px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;    
-                    }   
-                }
-
-                .formularioIzq{
-                    padding-left: 10%;
-                    text-align: left;
-                    height: 200px;
-                    
-                    .comentarios{
-                        height: 223px;
-                    }
-
-                    select{
-                        width: 93%;
-                        height: 36px;
+                        height: 35px;
                         border: solid 2px #48A3A8;
                         border-radius: 10px;
                     }
+
+                    label{
+                        color: #A1A1A1;
+                        font-size: 12px;
+                        text-align: left;
+                    }
+
+                    .formularioDer{
+                        text-align: center;
+                        padding-left: 10%;
+                        padding-top: 40px;
+                        text-align: left;
+                        height: 200px;
+
+                        input{
+                            width: 93%;
+                            height: 215px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;    
+                        }   
+                    }
+
+                    .formularioIzq{
+                        padding-left: 10%;
+                        text-align: left;
+                        height: 200px;
+                        
+                        .comentarios{
+                            height: 223px;
+                        }
+
+                        select{
+                            width: 93%;
+                            height: 36px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;
+                        }
+                    }
                 }
-            }
 
-            .enviar{
-                padding-top: 250px;
-                justify-content: center;
+                .enviar{
+                    padding-top: 250px;
+                    justify-content: center;
 
-                .confirmacionEnvio{
-                    color: white;
-                    background-color:#48A3A8;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 70%;
-                }
+                    .confirmacionEnvio{
+                        color: white;
+                        background-color:#48A3A8;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 70%;
+                    }
 
-                .confirmacionEnvio:hover{
-                    color: white;
-                    background-color:#297B80;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 70%;
-                    box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
+                    .confirmacionEnvio:hover{
+                        color: white;
+                        background-color:#297B80;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 70%;
+                        box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
+                    }
                 }
             }
         }
-    }
-/*index*/
-    .novedades{
-        opacity: 80%;
-        height:  450px;
-        margin-bottom: 25px;
-    }
-
-    .carousel-item{
-        height: 450px;
-        position: absolute;
-        background-size: cover;
-        background-position: center;
-    }
-
-    #profuctosOferta{
-        height: 400px;
-        margin-top: 25px;
-    }
-        
-    .cardsOfertas{
-        height: 390px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: hidden;
-        margin-top: 10px ;
-        margin-bottom: 75px;
-    }
-
-    .card{
-        height: 390px;
-        width: 250px;
-        margin-left: 20px;
-        #precio{
-            float: right;
+    /*index*/
+        .novedades{
+            opacity: 80%;
+            height:  450px;
+            margin-bottom: 25px;
         }
-    }
-    .card-img-top{
-        height: 150px;
-    }  
-/*eventos/*/
-    #eventos{
+
+        .carousel-item{
+            height: 450px;
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #profuctosOferta{
+            height: 400px;
+            margin-top: 25px;
+        }
+            
+        .cardsOfertas{
+            height: 390px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin-top: 10px ;
+            margin-bottom: 75px;
+        }
+
+        .card{
+            height: 390px;
+            width: 250px;
+            margin-left: 20px;
+            #precio{
+                float: right;
+            }
+        }
+        .card-img-top{
+            height: 150px;
+        }  
+    /*eventos*/
+        #eventos{
         text-align: center;
         padding: 25px 25px;
         align-items: center;
@@ -211,404 +211,526 @@
                 }
             }
         }
+        }
+    /*Sobre mi*/
+        #sobreNosotros{
+        margin-top: 70px;
+
+        p{
+            font-size: 16px;
+        }
+
+        .sobreMi{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 50px;
+            padding: 10px 100px;
+        }
+
+        .sectionSobreMi{
+            height: 300px;
+            padding: 25px 80px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            .iconSobreMi{
+                height: 80px;
+            }
+
+            img{
+                margin: 50px 70px;
+            }
+
+            p{
+                text-align: left;
+            }
+        }
+
+        .reciclaje, .personalizacion{
+            background-color: $gris-muyclaro;
+        }
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
-/*contacto*/    
-    .fondoContacto {
-        justify-content: center;
-        height: 1000px;
-        background: linear-gradient(#9FC9CC, #FCA0B2);
-
-        .formularioContacto{
-            top: 160px;
-            justify-content: center;
-            height: 800px;
-            background-color: white;
-            padding: 35px 50px;
-            border-radius: 30px;
-            margin-top: 70px;
-            text-align: center;
-
-            .tituloFormulario{
-                display: flex;
-                flex-direction: row;
+    /*contacto*/    
+            .fondoContacto {
                 justify-content: center;
-                color: #48A3A8;
-                font-weight: 100;
-                font-size: 36px;
-                text-transform: uppercase;
-            }
+                height: 1000px;
+                background: linear-gradient(#9FC9CC, #FCA0B2);
 
-            .campos{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding-top: 25px;
-                height: 300px;
-
-                input{
-                    width: 93%;
-                    height: 35px;
-                    border: solid 2px #48A3A8;
-                    border-radius: 10px;
-                }
-
-                label{
-                    color: #A1A1A1;
-                    font-size: 12px;
-                    text-align: left;
-                }
-
-                .formularioDer{
+                .formularioContacto{
+                    top: 160px;
+                    justify-content: center;
+                    height: 800px;
+                    background-color: white;
+                    padding: 35px 50px;
+                    border-radius: 30px;
+                    margin-top: 70px;
                     text-align: center;
-                    padding-left: 10%;
-                    padding-top: 40px;
-                    text-align: left;
-                    height: 200px;
 
-                    input{
-                        width: 93%;
-                        height: 215px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;    
-                    }   
-                }
-
-                .formularioIzq{
-                    padding-left: 10%;
-                    text-align: left;
-                    height: 200px;
-                    
-                    .comentarios{
-                        height: 223px;
+                    .tituloFormulario{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        color: #48A3A8;
+                        font-weight: 100;
+                        font-size: 36px;
+                        text-transform: uppercase;
                     }
 
-                    select{
-                        width: 93%;
-                        height: 36px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;
+                    .campos{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        padding-top: 25px;
+                        height: 300px;
+
+                        input{
+                            width: 93%;
+                            height: 35px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;
+                        }
+
+                        label{
+                            color: #A1A1A1;
+                            font-size: 12px;
+                            text-align: left;
+                        }
+
+                        .formularioDer{
+                            text-align: center;
+                            padding-left: 10%;
+                            padding-top: 40px;
+                            text-align: left;
+                            height: 200px;
+
+                            input{
+                                width: 93%;
+                                height: 215px;
+                                border: solid 2px #48A3A8;
+                                border-radius: 10px;    
+                            }   
+                        }
+
+                        .formularioIzq{
+                            padding-left: 10%;
+                            text-align: left;
+                            height: 200px;
+                            
+                            .comentarios{
+                                height: 223px;
+                            }
+
+                            select{
+                                width: 93%;
+                                height: 36px;
+                                border: solid 2px #48A3A8;
+                                border-radius: 10px;
+                            }
+                        }
+                    }
+
+                    .enviar{
+                        padding-top: 250px;
+                        justify-content: center;
+
+                        .confirmacionEnvio{
+                            color: white;
+                            background-color:#48A3A8;
+                            border-radius: 10px;
+                            border-style: none;
+                            height: 40px;
+                            width: 70%;
+                        }
+
+                        .confirmacionEnvio:hover{
+                            color: white;
+                            background-color:#297B80;
+                            border-radius: 10px;
+                            border-style: none;
+                            height: 40px;
+                            width: 70%;
+                            box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
+                        }
                     }
                 }
             }
-
-            .enviar{
-                padding-top: 250px;
-                justify-content: center;
-
-                .confirmacionEnvio{
-                    color: white;
-                    background-color:#48A3A8;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 70%;
-                }
-
-                .confirmacionEnvio:hover{
-                    color: white;
-                    background-color:#297B80;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 70%;
-                    box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
-                }
+    /*index*/
+            .novedades{
+                opacity: 80%;
+                height:  450px;
+                margin-bottom: 25px;
             }
-        }
-    }
-/*index*/
-    .novedades{
-        opacity: 80%;
-        height:  450px;
-        margin-bottom: 25px;
-    }
 
-    .carousel-item{
-        height: 450px;
-        position: absolute;
-        background-size: cover;
-        background-position: center;
-    }
+            .carousel-item{
+                height: 450px;
+                position: absolute;
+                background-size: cover;
+                background-position: center;
+            }
 
-    #profuctosOferta{
-        height: 400px;
-        margin-top: 55px;   
-    }
+            #profuctosOferta{
+                height: 400px;
+                margin-top: 55px;   
+            }
 
-    .cardsOfertas{
-        height: 390px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: hidden;
-        margin-top: 10px ;
-        margin-bottom: 75px;
-    }
-
-    .card{
-        height: 390px;
-        width: 250px;
-        margin-left: 20px;
-        #precio{
-            float: right;
-        }
-    }
-    .card-img-top{
-        height: 150px;
-    }  
-/*eventos*/
-    #eventos{
-        text-align: center;
-        padding: 25px 50px;
-        align-items: center;
-        height: 1300px;
-        
-        #eventosPrevios{
-
-            .eventosPrevios__cards{
+            .cardsOfertas{
+                height: 390px;
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
-                margin-top: 25px;
+                overflow: hidden;
+                margin-top: 10px ;
+                margin-bottom: 75px;
+            }
 
-                .cardEvento{ 
-                    display: inline-block;
-                    background-color: black;
-                    background-image: cover;   
-                    height: 45vh;
-                    padding: 10px;
-
-                    background-size: cover;
-
-                    .cardEvento__text{
-                        padding-top: 25%;
-                        display: none;
-                        align-content: middle;
-                        color: white;
-                    }
+            .card{
+                height: 390px;
+                width: 250px;
+                margin-left: 20px;
+                #precio{
+                    float: right;
                 }
+            }
+            .card-img-top{
+                height: 150px;
+            }  
+    /*eventos*/
+        #eventos{
+            text-align: center;
+            padding: 25px 50px;
+            align-items: center;
+            height: 1300px;
+            
+            #eventosPrevios{
 
-                .cardEvento:hover{ 
-                    opacity: 50%;
+                .eventosPrevios__cards{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 25px;
 
-                    .cardEvento__text{
-                        opacity: 100%;
-                        display: block;
-                        align-content: middle;
-                        color: white;
-                        padding: 10%;
-                        font-weight: 900;
-                        -webkit-text-stroke: 1px black;
+                    .cardEvento{ 
+                        display: inline-block;
+                        background-color: black;
+                        background-image: cover;   
+                        height: 45vh;
+                        padding: 10px;
+
+                        background-size: cover;
+
+                        .cardEvento__text{
+                            padding-top: 25%;
+                            display: none;
+                            align-content: middle;
+                            color: white;
+                        }
+                    }
+
+                    .cardEvento:hover{ 
+                        opacity: 50%;
+
+                        .cardEvento__text{
+                            opacity: 100%;
+                            display: block;
+                            align-content: middle;
+                            color: white;
+                            padding: 10%;
+                            font-weight: 900;
+                            -webkit-text-stroke: 1px black;
+                        }
                     }
                 }
             }
+        }
+    /*Sobre mi*/
+    #sobreNosotros{
+        margin-top: 100px;
+
+        p{
+            font-size: 16px;
+        }
+
+        .sobreMi{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 50px;
+            padding: 10px 200px;
+        }
+
+        .sectionSobreMi{
+            height: 300px;
+            padding: 25px 190px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            .iconSobreMi{
+                height: 80px;
+            }
+
+            img{
+                margin: 50px 70px;
+            }
+
+            p{
+                text-align: left;
+            }
+        }
+
+        .reciclaje, .personalizacion{
+            background-color: $gris-muyclaro;
         }
     }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px){
-/*contacto*/
-    .fondoContacto {
-        justify-content: center;
-        height: 620px;
-        background: linear-gradient(#9FC9CC, #FCA0B2);
-
-        .formularioContacto{
-            top: 160px;
+    /*contacto*/
+        .fondoContacto {
             justify-content: center;
-            height: 480px;
-            background-color: white;
-            padding: 35px 0px;
-            border-radius: 30px;
-            margin-top: 70px;
-            text-align: center;
+            height: 620px;
+            background: linear-gradient(#9FC9CC, #FCA0B2);
 
-            .tituloFormulario{
+            .formularioContacto{
+                top: 160px;
                 justify-content: center;
-                color: #48A3A8;
-                font-weight: 100;
-                font-size: 36px;
-                text-transform: uppercase;
-            }
+                height: 480px;
+                background-color: white;
+                padding: 35px 0px;
+                border-radius: 30px;
+                margin-top: 70px;
+                text-align: center;
 
-            .campos{
-                
-                justify-content: center;
-                padding: 2% 10%;
-                height: 300px;
-
-                input{
-                    width: 93%;
-                    height: 35px;
-                    border: solid 2px #48A3A8;
-                    border-radius: 10px;
+                .tituloFormulario{
+                    justify-content: center;
+                    color: #48A3A8;
+                    font-weight: 100;
+                    font-size: 36px;
+                    text-transform: uppercase;
                 }
 
-                label{
-                    color: #A1A1A1;
-                    font-size: 12px;
-                    text-align: left;
-                }
-
-                .formularioDer{
-                    text-align: center;
-                    text-align: left;
-                    height: 200px;
+                .campos{
+                    
+                    justify-content: center;
+                    padding: 2% 10%;
+                    height: 300px;
 
                     input{
-                        width: 100%;
-                        height: 215px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;    
-                    }   
-                }
-
-                .formularioIzq{
-
-                    text-align: left;
-                    height: 200px;
-                    
-                    .comentarios{
-                        height: 223px;
-                    }
-
-                    select{
                         width: 93%;
-                        height: 36px;
+                        height: 35px;
                         border: solid 2px #48A3A8;
                         border-radius: 10px;
                     }
-                }
-            }
 
-            .enviar{
-                justify-content: center;
+                    label{
+                        color: #A1A1A1;
+                        font-size: 12px;
+                        text-align: left;
+                    }
 
-                .confirmacionEnvio{
-                    color: white;
-                    background-color:#48A3A8;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 350px;
-                }
+                    .formularioDer{
+                        text-align: center;
+                        text-align: left;
+                        height: 200px;
 
-                .confirmacionEnvio:hover{
-                    color: white;
-                    background-color:#297B80;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 350px;
-                    box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
-                }
-            }
-        }
-    }
-/*index*/
-    .novedades{
-        opacity: 80%;
-        height:  450px;
-        margin-bottom: 25px;
-    }
+                        input{
+                            width: 100%;
+                            height: 215px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;    
+                        }   
+                    }
 
-    .carousel-item{
-        height: 450px;
-        position: absolute;
-        background-size: cover;
-        background-position: center;
-    }
+                    .formularioIzq{
 
-    #profuctosOferta{
-        height: 400px;
-        margin-top: 55px; 
-    }
+                        text-align: left;
+                        height: 200px;
+                        
+                        .comentarios{
+                            height: 223px;
+                        }
 
-    .cardsOfertas{
-        height: 390px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: hidden;
-        margin-top: 10px ;
-        margin-bottom: 75px;
-    }
-
-    .card{
-        height: 390px;
-        width: 250px;
-        margin-left: 20px;
-
-        #precio{
-            float: right;
-        }
-    }
-
-    .card-img-top{
-        height: 150px;
-    }  
-/*eventos*/
-    #eventos{
-        text-align: center;
-        padding: 25px 50px;
-        align-items: center;
-        height: 900px;
-        
-        #eventosPrevios{
-
-            .eventosPrevios__cards{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                margin-top: 25px;
-
-                .cardEvento{ 
-                    display: inline-block;
-                    background-color: black;
-                    background-image: cover;   
-                    height: 40vh;
-                    padding: 10px;
-
-                    background-size: cover;
-
-                    .cardEvento__text{
-                        padding-top: 25%;
-                        display: none;
-                        align-content: middle;
-                        color: white;
-                            p{
-                                font-size: 12px;
-                            }
-                            h2{
-                                font-size: 16px;
-                            }
+                        select{
+                            width: 93%;
+                            height: 36px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;
+                        }
                     }
                 }
 
-                .cardEvento:hover{ 
-                    opacity: 50%;
+                .enviar{
+                    justify-content: center;
 
-                    .cardEvento__text{
-                        opacity: 100%;
-                        display: block;
-                        align-content: middle;
+                    .confirmacionEnvio{
                         color: white;
-                        padding: 10%;
-                        font-weight: 900;
-                        -webkit-text-stroke: 1px black;
+                        background-color:#48A3A8;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 350px;
+                    }
+
+                    .confirmacionEnvio:hover{
+                        color: white;
+                        background-color:#297B80;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 350px;
+                        box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
                     }
                 }
             }
+        }
+    /*index*/
+        .novedades{
+            opacity: 80%;
+            height:  450px;
+            margin-bottom: 25px;
+        }
+
+        .carousel-item{
+            height: 450px;
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #profuctosOferta{
+            height: 400px;
+            margin-top: 55px; 
+        }
+
+        .cardsOfertas{
+            height: 390px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin-top: 10px ;
+            margin-bottom: 75px;
+        }
+
+        .card{
+            height: 390px;
+            width: 250px;
+            margin-left: 20px;
+
+            #precio{
+                float: right;
+            }
+        }
+
+        .card-img-top{
+            height: 150px;
+        }  
+    /*eventos*/
+        #eventos{
+            text-align: center;
+            padding: 25px 50px;
+            align-items: center;
+            height: 900px;
+            
+            #eventosPrevios{
+
+                .eventosPrevios__cards{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 25px;
+
+                    .cardEvento{ 
+                        display: inline-block;
+                        background-color: black;
+                        background-image: cover;   
+                        height: 40vh;
+                        padding: 10px;
+
+                        background-size: cover;
+
+                        .cardEvento__text{
+                            padding-top: 25%;
+                            display: none;
+                            align-content: middle;
+                            color: white;
+                                p{
+                                    font-size: 12px;
+                                }
+                                h2{
+                                    font-size: 16px;
+                                }
+                        }
+                    }
+
+                    .cardEvento:hover{ 
+                        opacity: 50%;
+
+                        .cardEvento__text{
+                            opacity: 100%;
+                            display: block;
+                            align-content: middle;
+                            color: white;
+                            padding: 10%;
+                            font-weight: 900;
+                            -webkit-text-stroke: 1px black;
+                        }
+                    }
+                }
+            }
+        }
+    /*Sobre mi*/
+    #sobreNosotros{
+        margin-top: 100px;
+
+        p{
+            font-size: 16px;
+        }
+
+        .sobreMi{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 50px;
+            padding: 10px 200px;
+        }
+
+        .sectionSobreMi{
+            height: 300px;
+            padding: 25px 190px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            .iconSobreMi{
+                height: 80px;
+            }
+
+            img{
+                margin: 50px 70px;
+            }
+
+            p{
+                text-align: left;
+            }
+        }
+
+        .reciclaje, .personalizacion{
+            background-color: $gris-muyclaro;
         }
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 2000px){
-
-/*contacto*/
+    /*contacto*/
     .fondoContacto {
         justify-content: center;
         height: 620px;
@@ -707,7 +829,7 @@
             }
         }
     }
-/*index*/
+    /*index*/
     .novedades{
         opacity: 80%;
         height:  450px;
@@ -751,7 +873,7 @@
     .card-img-top{
         height: 150px;
     } 
-/*eventos*/
+    /*eventos*/
     #eventos{
         text-align: center;
         padding: 25px 150px;
@@ -797,6 +919,70 @@
                     }
                 }
             }
+        }
+    }
+    /*Productos*/
+    .listadoProductos{
+
+        #filtros{
+            border-right: 2px solid black;
+        }
+
+        padding-left: 50px;
+
+        .categoriaA{
+            display: flex;
+            flex-direction: row;
+        }
+        .categoriaB{
+            display: flex;
+            flex-direction: row;
+        }
+        .categoriaC{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    /*Sobre mi*/
+    #sobreNosotros{
+        margin-top: 100px;
+
+        p{
+            font-size: 16px;
+        }
+
+        .sobreMi{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 50px;
+            padding: 10px 350px;
+        }
+
+        .sectionSobreMi{
+            height: 300px;
+            padding: 25px 280px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+
+            .iconSobreMi{
+                height: 80px;
+            }
+
+            img{
+                margin: 50px 70px;
+            }
+
+            p{
+                text-align: left;
+            }
+        }
+
+        .reciclaje, .personalizacion{
+            background-color: $gris-muyclaro;
         }
     }
 }

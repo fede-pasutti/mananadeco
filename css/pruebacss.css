@@ -8190,7 +8190,7 @@ textarea.form-control-lg {
       float: right; }
   .card-img-top {
     height: 150px; }
-  /*eventos/*/
+  /*eventos*/
   #eventos {
     text-align: center;
     padding: 25px 25px;
@@ -8223,7 +8223,33 @@ textarea.form-control-lg {
           color: white;
           padding: 10%;
           font-weight: 900;
-          -webkit-text-stroke: 1px black; } }
+          -webkit-text-stroke: 1px black; }
+  /*Sobre mi*/
+  #sobreNosotros {
+    margin-top: 70px; }
+    #sobreNosotros p {
+      font-size: 16px; }
+    #sobreNosotros .sobreMi {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 50px;
+      padding: 10px 100px; }
+    #sobreNosotros .sectionSobreMi {
+      height: 300px;
+      padding: 25px 80px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      #sobreNosotros .sectionSobreMi .iconSobreMi {
+        height: 80px; }
+      #sobreNosotros .sectionSobreMi img {
+        margin: 50px 70px; }
+      #sobreNosotros .sectionSobreMi p {
+        text-align: left; }
+    #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
+      background-color: #F8F8F8; } }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   /*contacto*/
@@ -8364,7 +8390,33 @@ textarea.form-control-lg {
           color: white;
           padding: 10%;
           font-weight: 900;
-          -webkit-text-stroke: 1px black; } }
+          -webkit-text-stroke: 1px black; }
+  /*Sobre mi*/
+  #sobreNosotros {
+    margin-top: 100px; }
+    #sobreNosotros p {
+      font-size: 16px; }
+    #sobreNosotros .sobreMi {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 50px;
+      padding: 10px 200px; }
+    #sobreNosotros .sectionSobreMi {
+      height: 300px;
+      padding: 25px 190px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      #sobreNosotros .sectionSobreMi .iconSobreMi {
+        height: 80px; }
+      #sobreNosotros .sectionSobreMi img {
+        margin: 50px 70px; }
+      #sobreNosotros .sectionSobreMi p {
+        text-align: left; }
+    #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
+      background-color: #F8F8F8; } }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   /*contacto*/
@@ -8501,7 +8553,33 @@ textarea.form-control-lg {
           color: white;
           padding: 10%;
           font-weight: 900;
-          -webkit-text-stroke: 1px black; } }
+          -webkit-text-stroke: 1px black; }
+  /*Sobre mi*/
+  #sobreNosotros {
+    margin-top: 100px; }
+    #sobreNosotros p {
+      font-size: 16px; }
+    #sobreNosotros .sobreMi {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 50px;
+      padding: 10px 200px; }
+    #sobreNosotros .sectionSobreMi {
+      height: 300px;
+      padding: 25px 190px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      #sobreNosotros .sectionSobreMi .iconSobreMi {
+        height: 80px; }
+      #sobreNosotros .sectionSobreMi img {
+        margin: 50px 70px; }
+      #sobreNosotros .sectionSobreMi p {
+        text-align: left; }
+    #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
+      background-color: #F8F8F8; } }
 
 @media only screen and (min-width: 1201px) and (max-width: 2000px) {
   /*contacto*/
@@ -8636,4 +8714,44 @@ textarea.form-control-lg {
           color: white;
           padding: 5%;
           font-weight: 900;
-          -webkit-text-stroke: 1px black; } }
+          -webkit-text-stroke: 1px black; }
+  /*Productos*/
+  .listadoProductos {
+    padding-left: 50px; }
+    .listadoProductos #filtros {
+      border-right: 2px solid black; }
+    .listadoProductos .categoriaA {
+      display: flex;
+      flex-direction: row; }
+    .listadoProductos .categoriaB {
+      display: flex;
+      flex-direction: row; }
+    .listadoProductos .categoriaC {
+      display: flex;
+      flex-direction: row; }
+  /*Sobre mi*/
+  #sobreNosotros {
+    margin-top: 100px; }
+    #sobreNosotros p {
+      font-size: 16px; }
+    #sobreNosotros .sobreMi {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: 50px;
+      padding: 10px 350px; }
+    #sobreNosotros .sectionSobreMi {
+      height: 300px;
+      padding: 25px 280px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%; }
+      #sobreNosotros .sectionSobreMi .iconSobreMi {
+        height: 80px; }
+      #sobreNosotros .sectionSobreMi img {
+        margin: 50px 70px; }
+      #sobreNosotros .sectionSobreMi p {
+        text-align: left; }
+    #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
+      background-color: #F8F8F8; } }
