@@ -16,9 +16,52 @@
         color: $verde-esmeralada;
     }
 
-    #precio{
+    #precio, .precio{
         color: $rosa-fuerte;
     }
+        
+    #botonCompra__card{
+        height: 30px;
+        width: 100px;
+        color: $verde-esmeralada;
+        border: none;
+        background-color: transparent;
+        border-radius: 15px;
+        text-transform: uppercase;
+        float: left;
+    }
+
+    #botonCarro__card{
+        height: 30px;
+        width: 100px;
+        color: white;
+        background-color: $verde-esmeralada;
+        border-radius: 15px;
+        border: none;
+        text-transform: uppercase;
+        float: right;
+    }
+
+    #botonCompra{
+        color: $verde-esmeralada;
+        height: 50px;
+        width: 200px;
+        border: 2px solid $verde-esmeralada;
+        background-color: transparent;
+        border-radius: 25px;
+        text-transform: uppercase;
+    }
+
+    #botonCarro{
+        color: white;
+        height: 50px;
+        width: 200px;
+        background-color: $verde-esmeralada;
+        border-radius: 25px;
+        border: none;
+        text-transform: uppercase;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -215,6 +258,101 @@
             }
         }
         }
+    /*Productos*/
+    #nuestrosProductos{
+        margin: 100px 0px 0px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .filtros{
+            margin-top: 20px;
+
+            li{
+                list-style: none;
+                display: inline;
+                margin-bottom: 100px;
+
+                a{
+                    color: black;
+                    margin-right: 40px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                a:hover{
+                    color: $rosa-fuerte;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        #navFiltros{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 100px 30px 50px;
+            text-align: left;
+            justify-content: space-between;
+
+            h6{
+                display: inline;
+                color: $rosa-fuerte;
+                margin: 20px;
+            }
+        }
+    }
+    #productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0px 50px 50px 50px;
+
+        .card{
+            margin: 10px;
+        }    
+    }
+
+    .drawerDesplegable{
+
+            .menu{
+                position: absolute;
+                left: 70px;
+                top: 331px;
+            }
+
+            .checkbox{
+                display: none;
+            }
+            .checkbox:checked ~ .menu{
+                left: 270px;
+                top: 10px;
+                z-index: -1;
+                color: white;
+            }
+
+            .checkbox:checked ~ #drawer{
+                left: 0;
+            }
+
+            #drawer{
+                padding-left: 30px;
+                padding-top: 80px;
+                height: 100vh;
+                background-color: $gris-topo;
+                position: absolute;
+                left: -300px;
+                top: 0px;
+                width: 300px;
+                z-index: 1;
+                color: white;
+                transition: left 0.8s;
+
+                .precio{
+                   margin-right: 30px;
+                }
+            }
+    }
     /*Sobre mi*/
         #sobreNosotros{
         margin-top: 70px;
@@ -451,6 +589,101 @@
                 }
             }
         }
+    /*Productos*/
+    #nuestrosProductos{
+        margin: 100px 0px 0px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .filtros{
+            margin-top: 20px;
+
+            li{
+                list-style: none;
+                display: inline;
+                margin-bottom: 100px;
+
+                a{
+                    color: black;
+                    margin-right: 40px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                a:hover{
+                    color: $rosa-fuerte;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        #navFiltros{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 100px 30px 50px;
+            text-align: left;
+            justify-content: space-between;
+
+            h6{
+                display: inline;
+                color: $rosa-fuerte;
+                margin: 20px;
+            }
+        }
+    }
+    #productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0px 50px 50px 50px;
+
+        .card{
+            margin: 10px;
+        }    
+    }
+
+    .drawerDesplegable{
+
+            .menu{
+                position: absolute;
+                left: 70px;
+                top: 331px;
+            }
+
+            .checkbox{
+                display: none;
+            }
+            .checkbox:checked ~ .menu{
+                left: 270px;
+                top: 10px;
+                z-index: -1;
+                color: white;
+            }
+
+            .checkbox:checked ~ #drawer{
+                left: 0;
+            }
+
+            #drawer{
+                padding-left: 30px;
+                padding-top: 80px;
+                height: 100vh;
+                background-color: $gris-topo;
+                position: absolute;
+                left: -300px;
+                top: 0px;
+                width: 300px;
+                z-index: 1;
+                color: white;
+                transition: left 0.8s;
+
+                .precio{
+                   margin-right: 30px;
+                }
+            }
+    }
     /*Sobre mi*/
     #sobreNosotros{
         margin-top: 100px;
@@ -689,6 +922,102 @@
                 }
             }
         }
+    /*Productos*/ 
+    #nuestrosProductos{
+        margin: 100px 0px 0px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        .filtros{
+            margin-top: 20px;
+
+            li{
+                list-style: none;
+                display: inline;
+                margin-bottom: 100px;
+
+                a{
+                    color: black;
+                    margin-right: 40px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                a:hover{
+                    color: $rosa-fuerte;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        #navFiltros{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 100px 30px 50px;
+            text-align: left;
+            justify-content: space-between;
+
+            h6{
+                display: inline;
+                color: $rosa-fuerte;
+                margin: 20px;
+            }
+        }
+    }
+    #productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0px 50px 50px 50px;
+
+        .card{
+            margin: 10px;
+        }    
+    }
+
+    .drawerDesplegable{
+
+            .menu{
+                position: absolute;
+                left: 70px;
+                top: 331px;
+            }
+
+            .checkbox{
+                display: none;
+            }
+            .checkbox:checked ~ .menu{
+                left: 270px;
+                top: 10px;
+                z-index: -1;
+                color: white;
+            }
+
+            .checkbox:checked ~ #drawer{
+                left: 0;
+            }
+
+            #drawer{
+                padding-left: 30px;
+                padding-top: 80px;
+                height: 100vh;
+                background-color: $gris-topo;
+                position: absolute;
+                left: -300px;
+                top: 0px;
+                width: 300px;
+                z-index: 1;
+                color: white;
+                transition: left 0.8s;
+
+                .precio{
+                   margin-right: 30px;
+                }
+            }
+    }
+
     /*Sobre mi*/
     #sobreNosotros{
         margin-top: 100px;
@@ -1018,7 +1347,6 @@
                    margin-right: 30px;
                 }
             }
-
     }
 /*Producto Elegido*/
     .productoElegido{
@@ -1127,8 +1455,6 @@
             width: 45%;
         }
     }
-           
-
 /*Sobre mi*/
     #sobreNosotros{
         margin-top: 100px;
