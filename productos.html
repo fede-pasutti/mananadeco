@@ -48,109 +48,175 @@
                 </div>
             </div>  
         </div>
-    </header>
-
+    </header>   
+    
     <div class="containter" >
         <div class="row">
-            <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10" class="listadoProductos">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" id="nuestrosProductos">
                 <h2>Nuestros productos</h2>
-                <div class="row categoriaA">
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
+                <ul  class="filtros"> 
+                    <li id="itemFiltro"><a href="">Toppers</a></li>
+                    <li id="itemFiltro"><a href="">Guirnaldas</a></li>
+                    <li id="itemFiltro"><a href="">Piñatas</a></li>
+                    <li id="itemFiltro"><a href="">Festivos</a></li>
+                    <li id="itemFiltro"><a href="">Figuras</a></li>
+                </ul>
+
+                <div id="navFiltros">
+                    <div>
+                        <h6>☰ Filtros</h6>
+                        <h7>Home / Productos</h7>
                     </div>
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>       
-                </div>
-                <div class="row categoriaB">
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row categoriaC">
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="media/prod2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 id="precio">$175</h5>
-                            <h5 class="card-title">Guirnalda Motocicletas</h5>
-                            <p class="card-text">Guirnalda tematica de motos clasicas, inspiradas en metralla e impala. de 1mt de largo</p>
-                            <a href="#" class="btn btn-light">Agregar</a>
-                            <a href="#" class="btn btn-primary">Comprar</a>
-                        </div>
+                    <div>
+                        <h6>Ordenar por ▼</h6>
                     </div>
                 </div>
             </div>
-            <div  class="col-sm-0 col-md-2 col-lg-2 col-xl-2">
-                <form>
-                    <section id="filtros" >Filtros
-                        <div>Tipo de producto
-                                        <ul>
-                                            <li>Guirnaldas<input type="checkbox" name="Guirnaldas" value="1"></li>
+        </div>
+    </div>
+     
+    <div class="drawerDesplegable">
+        <input type="checkbox" class="checkbox" id="check">
+        <label class="menu" for="check">☰</label>
+        
+        <div id="drawer">
+            <h6>Filtros</h6>
 
-                                            <ul>Piñatas
-                                            <li>Grande<input type="checkbox" name="Piñata grande" value="1"></li>
-                                            <li>Mini / Invidual<input type="checkbox" name="Mini piñata" value="1"></li>
-                                            </ul>
+                            <div class="Categorias">
+                                <h4>Categorias</h4>
 
-                                            <ul>Toppers
-                                                <li>Mini topper<input type="checkbox" name="Mini toppers" value="1"></li>
-                                                <li>Topper mediano<input type="checkbox" name="Toppers medianos" value="1"></li>
-                                                <li>Topper Cumpleaños<input type="checkbox" name="Topper cumpleaños" value="1"></li>
-                                            </ul>
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                  <label class="form-check-label" for="flexSwitchCheckDefault">Guirnaldas</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                  <label class="form-check-label" for="flexSwitchCheckDefault">Toppers</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                  <label class="form-check-label" for="flexSwitchCheckDefault">Piñatas</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                  <label class="form-check-label" for="flexSwitchCheckDefault">Festivos</label>
+                                </div>
+                                <div class="form-check form-switch">
+                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                  <label class="form-check-label" for="flexSwitchCheckDefault">Figuras</label>
+                                </div>
+                            </div>
 
-                                            <li>Decoraciones<input type="checkbox" name="Decoraciones" value="1"></li>
-                                            <li>Pajitas<input type="checkbox" name="Pajitas" value="1"></li>
-                                        </ul>
+                            <div class="precio">
+                                <h4>Filtrar por precio</h4>
+                                <label for="customRange1" class="form-label">Example range</label>
+                                <input type="range" class="form-range" id="customRange1">
+                            </div>   
                         </div>
-                        <div>Materiales
-                                <ul>
-                                    <li>Goma Eva<input type="checkbox" name="Goma Eva" value="1"></li>
-                                    <li>Papel<input type="checkbox" name="Papel" value="1"></li>
-                                </ul>
-                        </div>
-                    </section>
-                </form>
+    </div>
+
+    <div class="container-fluid">
+        <div  class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div  id="productos">
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="#" class="btn btn-light">Agregar</a>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -209,7 +275,5 @@
             </div>
         </div>
     </div>
-
-    
 </body>
 </html>

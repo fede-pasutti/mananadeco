@@ -10,6 +10,9 @@
     padding: 0px;
     
     h2{
+        justify-content: center;
+        font-weight: 200;
+        font-size: 36px;
         color: $verde-esmeralada;
     }
 
@@ -730,7 +733,7 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 2000px){
-    /*contacto*/
+/*contacto*/
     .fondoContacto {
         justify-content: center;
         height: 620px;
@@ -829,7 +832,7 @@
             }
         }
     }
-    /*index*/
+/*index*/
     .novedades{
         opacity: 80%;
         height:  450px;
@@ -873,7 +876,7 @@
     .card-img-top{
         height: 150px;
     } 
-    /*eventos*/
+/*eventos*/
     #eventos{
         text-align: center;
         padding: 25px 150px;
@@ -921,30 +924,212 @@
             }
         }
     }
-    /*Productos*/
-    .listadoProductos{
+/*Productos*/
+    #nuestrosProductos{
+        margin: 100px 0px 0px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
 
-        #filtros{
-            border-right: 2px solid black;
+        .filtros{
+            margin-top: 20px;
+
+            li{
+                list-style: none;
+                display: inline;
+                margin-bottom: 100px;
+
+                a{
+                    color: black;
+                    margin-right: 40px;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                }
+
+                a:hover{
+                    color: $rosa-fuerte;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
         }
 
-        padding-left: 50px;
+        #navFiltros{
+            display: flex;
+            flex-direction: row;
+            margin: 50px 100px 30px 50px;
+            text-align: left;
+            justify-content: space-between;
 
-        .categoriaA{
-            display: flex;
-            flex-direction: row;
-        }
-        .categoriaB{
-            display: flex;
-            flex-direction: row;
-        }
-        .categoriaC{
-            display: flex;
-            flex-direction: row;
+            h6{
+                display: inline;
+                color: $rosa-fuerte;
+                margin: 20px;
+            }
         }
     }
+    #productos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin:0px 50px 50px 50px;
 
-    /*Sobre mi*/
+        .card{
+            margin: 10px;
+        }    
+    }
+
+    .drawerDesplegable{
+
+            .menu{
+                position: absolute;
+                left: 70px;
+                top: 331px;
+            }
+
+            .checkbox{
+                display: none;
+            }
+            .checkbox:checked ~ .menu{
+                left: 270px;
+                top: 10px;
+                z-index: -1;
+                color: white;
+            }
+
+            .checkbox:checked ~ #drawer{
+                left: 0;
+            }
+
+            #drawer{
+                padding-left: 30px;
+                padding-top: 80px;
+                height: 100vh;
+                background-color: $gris-topo;
+                position: absolute;
+                left: -300px;
+                top: 0px;
+                width: 300px;
+                z-index: 1;
+                color: white;
+                transition: left 0.8s;
+
+                .precio{
+                   margin-right: 30px;
+                }
+            }
+
+    }
+/*Producto Elegido*/
+    .productoElegido{
+        padding: 130px 50px 150px 100px;
+
+        .compartirRedes{
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            top: 450px;
+            left: 80px;
+
+
+            .compartir__boton--rosa{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40px;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--rosa{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--rosa:hover{
+                background-color: $rosa-suave;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__compartir--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .compartir__boton--azul{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--azul{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--azul:hover{
+                background-color: $azul;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__compartir--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+
+            .compartir__boton--verde{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--verde{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--verde:hover{
+                background-color: $verde;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__compartir--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+        }
+
+        #fotoProducto{
+            height: 80vh;
+            width: 45%;
+            background-image: url("media/card1.jpg");
+        }
+
+        #descripcionProducto{
+            height: 80vh;
+            width: 45%;
+        }
+    }
+           
+
+/*Sobre mi*/
     #sobreNosotros{
         margin-top: 100px;
 

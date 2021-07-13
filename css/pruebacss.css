@@ -7,7 +7,8 @@ font-family: 'Exo', sans-serif;*/
 header {
   background-color: #FFC2D1;
   height: 70px;
-  align-content: center; }
+  align-content: center;
+  z-index: 2; }
 
 .logoHead {
   height: 66px;
@@ -141,9 +142,9 @@ header {
   .desplegado a {
     text-decoration: none;
     margin-left: 40px;
-    color: white; }
+    color: black; }
   #menuSelected {
-    color: #FF7D89;
+    color: black;
     font-weight: 800; }
   .desplegado a:hover {
     text-decoration: none;
@@ -169,7 +170,7 @@ header {
   .iconsNav {
     height: 28px;
     margin-top: 21px;
-    margin-right: 30px;
+    margin-right: 40px;
     float: left; }
   .icons {
     position: absolute;
@@ -177,14 +178,14 @@ header {
   .desplegado {
     margin-top: 25px;
     position: absolute;
-    right: 200px; }
+    right: 300px; }
   .desplegado a {
     text-decoration: none;
     margin-left: 40px;
-    color: white; }
+    color: #2A2A2A; }
   #menuSelected {
-    color: #FF7D89;
-    font-weight: 800; }
+    color: black;
+    font-weight: 600; }
   .desplegado a:hover {
     text-decoration: none;
     margin-left: 40px;
@@ -8079,6 +8080,9 @@ textarea.form-control-lg {
   margin: 0px;
   padding: 0px; }
   * h2, * .h2 {
+    justify-content: center;
+    font-weight: 200;
+    font-size: 36px;
     color: #48A3A8; }
   * #precio {
     color: #FF7D89; }
@@ -8716,19 +8720,148 @@ textarea.form-control-lg {
           font-weight: 900;
           -webkit-text-stroke: 1px black; }
   /*Productos*/
-  .listadoProductos {
-    padding-left: 50px; }
-    .listadoProductos #filtros {
-      border-right: 2px solid black; }
-    .listadoProductos .categoriaA {
+  #nuestrosProductos {
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; }
+    #nuestrosProductos .filtros {
+      margin-top: 20px; }
+      #nuestrosProductos .filtros li {
+        list-style: none;
+        display: inline;
+        margin-bottom: 100px; }
+        #nuestrosProductos .filtros li a {
+          color: black;
+          margin-right: 40px;
+          font-weight: 400;
+          text-transform: uppercase; }
+        #nuestrosProductos .filtros li a:hover {
+          color: #FF7D89;
+          font-weight: 500;
+          text-decoration: none; }
+    #nuestrosProductos #navFiltros {
       display: flex;
-      flex-direction: row; }
-    .listadoProductos .categoriaB {
+      flex-direction: row;
+      margin: 50px 100px 30px 50px;
+      text-align: left;
+      justify-content: space-between; }
+      #nuestrosProductos #navFiltros h6, #nuestrosProductos #navFiltros .h6 {
+        display: inline;
+        color: #FF7D89;
+        margin: 20px; }
+  #productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px 50px 50px 50px; }
+    #productos .card {
+      margin: 10px; }
+  .drawerDesplegable .menu {
+    position: absolute;
+    left: 70px;
+    top: 331px; }
+  .drawerDesplegable .checkbox {
+    display: none; }
+  .drawerDesplegable .checkbox:checked ~ .menu {
+    left: 270px;
+    top: 10px;
+    z-index: -1;
+    color: white; }
+  .drawerDesplegable .checkbox:checked ~ #drawer {
+    left: 0; }
+  .drawerDesplegable #drawer {
+    padding-left: 30px;
+    padding-top: 80px;
+    height: 100vh;
+    background-color: #2A2A2A;
+    position: absolute;
+    left: -300px;
+    top: 0px;
+    width: 300px;
+    z-index: 1;
+    color: white;
+    transition: left 0.8s; }
+    .drawerDesplegable #drawer .precio {
+      margin-right: 30px; }
+  /*Producto Elegido*/
+  .productoElegido {
+    padding: 130px 50px 150px 100px; }
+    .productoElegido .compartirRedes {
+      position: fixed;
       display: flex;
-      flex-direction: row; }
-    .listadoProductos .categoriaC {
-      display: flex;
-      flex-direction: row; }
+      flex-direction: column;
+      top: 450px;
+      left: 80px; }
+      .productoElegido .compartirRedes .compartir__boton--rosa {
+        display: inline;
+        float: right;
+        height: 40px;
+        width: 40px;
+        background-color: #2A2A2A;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px; }
+        .productoElegido .compartirRedes .compartir__boton--rosa .boton__compartir--rosa {
+          padding: 8px;
+          height: 40px;
+          text-align: center;
+          color: white; }
+      .productoElegido .compartirRedes .compartir__boton--rosa:hover {
+        background-color: #FFC2D1;
+        box-shadow: 0px 0px 10px 3px #FCA0B2;
+        transform: scale(1.1); }
+        .productoElegido .compartirRedes .compartir__boton--rosa:hover .boton__compartir--rosa {
+          filter: drop-shadow(0px 0px 5px #FCA0B2); }
+      .productoElegido .compartirRedes .compartir__boton--azul {
+        display: inline;
+        float: right;
+        height: 40px;
+        width: 40x;
+        background-color: #2A2A2A;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 10px; }
+        .productoElegido .compartirRedes .compartir__boton--azul .boton__compartir--azul {
+          padding: 8px;
+          height: 40px;
+          text-align: center;
+          color: white; }
+      .productoElegido .compartirRedes .compartir__boton--azul:hover {
+        background-color: #1936C6;
+        box-shadow: 0px 0px 10px 3px #1936C6;
+        transform: scale(1.1); }
+        .productoElegido .compartirRedes .compartir__boton--azul:hover .boton__compartir--azul {
+          filter: drop-shadow(0px 0px 5px #1936C6); }
+      .productoElegido .compartirRedes .compartir__boton--verde {
+        display: inline;
+        float: right;
+        height: 40px;
+        width: 40x;
+        background-color: #2A2A2A;
+        margin-right: 50px;
+        text-align: center;
+        border-radius: 10px; }
+        .productoElegido .compartirRedes .compartir__boton--verde .boton__compartir--verde {
+          padding: 8px;
+          height: 40px;
+          text-align: center;
+          color: white; }
+      .productoElegido .compartirRedes .compartir__boton--verde:hover {
+        background-color: #19C63C;
+        box-shadow: 0px 0px 10px 3px #19C63C;
+        transform: scale(1.1); }
+        .productoElegido .compartirRedes .compartir__boton--verde:hover .boton__compartir--verde {
+          filter: drop-shadow(0px 0px 5px #19C63C); }
+    .productoElegido #fotoProducto {
+      height: 80vh;
+      width: 45%;
+      background-image: url("media/card1.jpg"); }
+    .productoElegido #descripcionProducto {
+      height: 80vh;
+      width: 45%; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }

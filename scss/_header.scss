@@ -2,6 +2,7 @@ header{
     background-color: $rosa-suave;
     height: 70px;
     align-content: center;
+    z-index: 2;
 }
 
     
@@ -203,11 +204,11 @@ header{
     .desplegado a{
         text-decoration: none;
         margin-left: 40px;
-        color: white;
+        color: black;
     }
 
     #menuSelected{
-        color: $rosa-fuerte;
+        color: $black;
         font-weight: 800;
 
     }
@@ -250,7 +251,7 @@ header{
     .iconsNav{
         height: 28px;
         margin-top: 21px;
-        margin-right: 30px;
+        margin-right: 40px;
         float: left;
     }
 
@@ -262,18 +263,18 @@ header{
     .desplegado{
         margin-top: 25px;
         position: absolute;
-        right: 200px;
+        right: 300px;
     }
 
     .desplegado a{
         text-decoration: none;
         margin-left: 40px;
-        color: white;
+        color: $gris-topo;
     }
 
     #menuSelected{
-        color: $rosa-fuerte;
-        font-weight: 800;
+        color: $black;
+        font-weight: 600;
 
     }
 
