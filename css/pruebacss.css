@@ -8079,7 +8079,7 @@ textarea.form-control-lg {
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px; }
-  * h2, * .h2 {
+  * h2, * .h2, * #titulosSeccion {
     justify-content: center;
     font-weight: 200;
     font-size: 36px;
@@ -8276,7 +8276,7 @@ textarea.form-control-lg {
         margin-bottom: 100px; }
         #nuestrosProductos .filtros li a {
           color: black;
-          margin-right: 40px;
+          margin-right: 20px;
           font-weight: 400;
           text-transform: uppercase; }
         #nuestrosProductos .filtros li a:hover {
@@ -8303,13 +8303,14 @@ textarea.form-control-lg {
   .drawerDesplegable .menu {
     position: absolute;
     left: 70px;
-    top: 331px; }
+    top: 331px;
+    color: #FF7D89; }
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
     left: 270px;
     top: 10px;
-    z-index: -1;
+    z-index: 3;
     color: white; }
   .drawerDesplegable .checkbox:checked ~ #drawer {
     left: 0; }
@@ -8317,7 +8318,7 @@ textarea.form-control-lg {
     padding-left: 30px;
     padding-top: 80px;
     height: 100vh;
-    background-color: #2A2A2A;
+    background-color: #FCA0B2;
     position: absolute;
     left: -300px;
     top: 0px;
@@ -8325,8 +8326,29 @@ textarea.form-control-lg {
     z-index: 1;
     color: white;
     transition: left 0.8s; }
-    .drawerDesplegable #drawer .precio {
-      margin-right: 30px; }
+    .drawerDesplegable #drawer #botonCarro__card {
+      position: absolute;
+      bottom: 150px;
+      left: 100px; }
+    .drawerDesplegable #drawer h4, .drawerDesplegable #drawer .h4 {
+      margin-top: 20px;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer h5, .drawerDesplegable #drawer .h5 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer label {
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer .filtroPrecio .slider {
+      position: absolute;
+      left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor1 {
+        position: absolute;
+        left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor2 {
+        position: absolute;
+        left: 200px; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 70px; }
@@ -8535,13 +8557,14 @@ textarea.form-control-lg {
   .drawerDesplegable .menu {
     position: absolute;
     left: 70px;
-    top: 331px; }
+    top: 331px;
+    color: #FF7D89; }
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
     left: 270px;
     top: 10px;
-    z-index: -1;
+    z-index: 3;
     color: white; }
   .drawerDesplegable .checkbox:checked ~ #drawer {
     left: 0; }
@@ -8549,7 +8572,7 @@ textarea.form-control-lg {
     padding-left: 30px;
     padding-top: 80px;
     height: 100vh;
-    background-color: #2A2A2A;
+    background-color: #FCA0B2;
     position: absolute;
     left: -300px;
     top: 0px;
@@ -8557,8 +8580,29 @@ textarea.form-control-lg {
     z-index: 1;
     color: white;
     transition: left 0.8s; }
-    .drawerDesplegable #drawer .precio {
-      margin-right: 30px; }
+    .drawerDesplegable #drawer #botonCarro__card {
+      position: absolute;
+      bottom: 150px;
+      left: 100px; }
+    .drawerDesplegable #drawer h4, .drawerDesplegable #drawer .h4 {
+      margin-top: 20px;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer h5, .drawerDesplegable #drawer .h5 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer label {
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer .filtroPrecio .slider {
+      position: absolute;
+      left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor1 {
+        position: absolute;
+        left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor2 {
+        position: absolute;
+        left: 200px; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }
@@ -8763,13 +8807,14 @@ textarea.form-control-lg {
   .drawerDesplegable .menu {
     position: absolute;
     left: 70px;
-    top: 331px; }
+    top: 331px;
+    color: #FF7D89; }
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
     left: 270px;
     top: 10px;
-    z-index: -1;
+    z-index: 3;
     color: white; }
   .drawerDesplegable .checkbox:checked ~ #drawer {
     left: 0; }
@@ -8777,7 +8822,7 @@ textarea.form-control-lg {
     padding-left: 30px;
     padding-top: 80px;
     height: 100vh;
-    background-color: #2A2A2A;
+    background-color: #FCA0B2;
     position: absolute;
     left: -300px;
     top: 0px;
@@ -8785,8 +8830,29 @@ textarea.form-control-lg {
     z-index: 1;
     color: white;
     transition: left 0.8s; }
-    .drawerDesplegable #drawer .precio {
-      margin-right: 30px; }
+    .drawerDesplegable #drawer #botonCarro__card {
+      position: absolute;
+      bottom: 150px;
+      left: 100px; }
+    .drawerDesplegable #drawer h4, .drawerDesplegable #drawer .h4 {
+      margin-top: 20px;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer h5, .drawerDesplegable #drawer .h5 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer label {
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer .filtroPrecio .slider {
+      position: absolute;
+      left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor1 {
+        position: absolute;
+        left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor2 {
+        position: absolute;
+        left: 200px; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }
@@ -8989,13 +9055,14 @@ textarea.form-control-lg {
   .drawerDesplegable .menu {
     position: absolute;
     left: 70px;
-    top: 331px; }
+    top: 331px;
+    color: #FF7D89; }
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
     left: 270px;
     top: 10px;
-    z-index: -1;
+    z-index: 3;
     color: white; }
   .drawerDesplegable .checkbox:checked ~ #drawer {
     left: 0; }
@@ -9003,7 +9070,7 @@ textarea.form-control-lg {
     padding-left: 30px;
     padding-top: 80px;
     height: 100vh;
-    background-color: #2A2A2A;
+    background-color: #FCA0B2;
     position: absolute;
     left: -300px;
     top: 0px;
@@ -9011,8 +9078,29 @@ textarea.form-control-lg {
     z-index: 1;
     color: white;
     transition: left 0.8s; }
-    .drawerDesplegable #drawer .precio {
-      margin-right: 30px; }
+    .drawerDesplegable #drawer #botonCarro__card {
+      position: absolute;
+      bottom: 150px;
+      left: 100px; }
+    .drawerDesplegable #drawer h4, .drawerDesplegable #drawer .h4 {
+      margin-top: 20px;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer h5, .drawerDesplegable #drawer .h5 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer label {
+      color: #2A2A2A; }
+    .drawerDesplegable #drawer .filtroPrecio .slider {
+      position: absolute;
+      left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor1 {
+        position: absolute;
+        left: 20px; }
+      .drawerDesplegable #drawer .filtroPrecio .slider .valor2 {
+        position: absolute;
+        left: 200px; }
   /*Producto Elegido*/
   .productoElegido {
     padding: 130px 50px 150px 100px; }

@@ -9,7 +9,7 @@
     margin: 0px;
     padding: 0px;
     
-    h2{
+    h2, #titulosSeccion{
         justify-content: center;
         font-weight: 200;
         font-size: 36px;
@@ -275,7 +275,7 @@
 
                 a{
                     color: black;
-                    margin-right: 40px;
+                    margin-right: 20px;
                     font-weight: 400;
                     text-transform: uppercase;
                 }
@@ -312,13 +312,13 @@
             margin: 10px;
         }    
     }
-
     .drawerDesplegable{
 
             .menu{
                 position: absolute;
                 left: 70px;
                 top: 331px;
+                color: $rosa-fuerte;
             }
 
             .checkbox{
@@ -327,7 +327,7 @@
             .checkbox:checked ~ .menu{
                 left: 270px;
                 top: 10px;
-                z-index: -1;
+                z-index: 3;
                 color: white;
             }
 
@@ -339,7 +339,7 @@
                 padding-left: 30px;
                 padding-top: 80px;
                 height: 100vh;
-                background-color: $gris-topo;
+                background-color: $rosa-medio;
                 position: absolute;
                 left: -300px;
                 top: 0px;
@@ -348,8 +348,44 @@
                 color: white;
                 transition: left 0.8s;
 
-                .precio{
-                   margin-right: 30px;
+                #botonCarro__card{
+                    position: absolute;
+                    bottom: 150px;
+                    left: 100px
+                }
+
+                h4{
+                    margin-top: 20px;
+                    color: $gris-topo;
+                }
+
+                h5{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    color: $gris-topo;
+                }
+
+                label{
+                    color: $gris-topo;
+                }
+
+                .filtroPrecio{
+
+
+                    .slider{
+                        position: absolute;
+                        left: 20px;
+
+                        .valor1{
+                            position: absolute;
+                            left: 20px; 
+                        }
+                        .valor2{
+                            position: absolute;
+                            left: 200px; 
+                        }
+                   }
                 }
             }
     }
@@ -643,13 +679,13 @@
             margin: 10px;
         }    
     }
-
     .drawerDesplegable{
 
             .menu{
                 position: absolute;
                 left: 70px;
                 top: 331px;
+                color: $rosa-fuerte;
             }
 
             .checkbox{
@@ -658,7 +694,7 @@
             .checkbox:checked ~ .menu{
                 left: 270px;
                 top: 10px;
-                z-index: -1;
+                z-index: 3;
                 color: white;
             }
 
@@ -670,7 +706,7 @@
                 padding-left: 30px;
                 padding-top: 80px;
                 height: 100vh;
-                background-color: $gris-topo;
+                background-color: $rosa-medio;
                 position: absolute;
                 left: -300px;
                 top: 0px;
@@ -679,8 +715,44 @@
                 color: white;
                 transition: left 0.8s;
 
-                .precio{
-                   margin-right: 30px;
+                #botonCarro__card{
+                    position: absolute;
+                    bottom: 150px;
+                    left: 100px
+                }
+
+                h4{
+                    margin-top: 20px;
+                    color: $gris-topo;
+                }
+
+                h5{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    color: $gris-topo;
+                }
+
+                label{
+                    color: $gris-topo;
+                }
+
+                .filtroPrecio{
+
+
+                    .slider{
+                        position: absolute;
+                        left: 20px;
+
+                        .valor1{
+                            position: absolute;
+                            left: 20px; 
+                        }
+                        .valor2{
+                            position: absolute;
+                            left: 200px; 
+                        }
+                   }
                 }
             }
     }
@@ -976,13 +1048,13 @@
             margin: 10px;
         }    
     }
-
     .drawerDesplegable{
 
             .menu{
                 position: absolute;
                 left: 70px;
                 top: 331px;
+                color: $rosa-fuerte;
             }
 
             .checkbox{
@@ -991,7 +1063,7 @@
             .checkbox:checked ~ .menu{
                 left: 270px;
                 top: 10px;
-                z-index: -1;
+                z-index: 3;
                 color: white;
             }
 
@@ -1003,7 +1075,7 @@
                 padding-left: 30px;
                 padding-top: 80px;
                 height: 100vh;
-                background-color: $gris-topo;
+                background-color: $rosa-medio;
                 position: absolute;
                 left: -300px;
                 top: 0px;
@@ -1012,8 +1084,44 @@
                 color: white;
                 transition: left 0.8s;
 
-                .precio{
-                   margin-right: 30px;
+                #botonCarro__card{
+                    position: absolute;
+                    bottom: 150px;
+                    left: 100px
+                }
+
+                h4{
+                    margin-top: 20px;
+                    color: $gris-topo;
+                }
+
+                h5{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    color: $gris-topo;
+                }
+
+                label{
+                    color: $gris-topo;
+                }
+
+                .filtroPrecio{
+
+
+                    .slider{
+                        position: absolute;
+                        left: 20px;
+
+                        .valor1{
+                            position: absolute;
+                            left: 20px; 
+                        }
+                        .valor2{
+                            position: absolute;
+                            left: 200px; 
+                        }
+                   }
                 }
             }
     }
@@ -1307,13 +1415,13 @@
             margin: 10px;
         }    
     }
-
     .drawerDesplegable{
 
             .menu{
                 position: absolute;
                 left: 70px;
                 top: 331px;
+                color: $rosa-fuerte;
             }
 
             .checkbox{
@@ -1322,7 +1430,7 @@
             .checkbox:checked ~ .menu{
                 left: 270px;
                 top: 10px;
-                z-index: -1;
+                z-index: 3;
                 color: white;
             }
 
@@ -1334,7 +1442,7 @@
                 padding-left: 30px;
                 padding-top: 80px;
                 height: 100vh;
-                background-color: $gris-topo;
+                background-color: $rosa-medio;
                 position: absolute;
                 left: -300px;
                 top: 0px;
@@ -1343,8 +1451,44 @@
                 color: white;
                 transition: left 0.8s;
 
-                .precio{
-                   margin-right: 30px;
+                #botonCarro__card{
+                    position: absolute;
+                    bottom: 150px;
+                    left: 100px
+                }
+
+                h4{
+                    margin-top: 20px;
+                    color: $gris-topo;
+                }
+
+                h5{
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    font-weight: 400;
+                    color: $gris-topo;
+                }
+
+                label{
+                    color: $gris-topo;
+                }
+
+                .filtroPrecio{
+
+
+                    .slider{
+                        position: absolute;
+                        left: 20px;
+
+                        .valor1{
+                            position: absolute;
+                            left: 20px; 
+                        }
+                        .valor2{
+                            position: absolute;
+                            left: 200px; 
+                        }
+                   }
                 }
             }
     }
