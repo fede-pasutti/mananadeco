@@ -9118,11 +9118,11 @@ textarea.form-control-lg {
         left: 68%;
         margin-left: 20px; }
     .productoElegido .compartirRedes {
-      position: fixed;
+      position: absolute;
       display: flex;
       flex-direction: column;
-      top: 350px;
-      left: 80px; }
+      top: 220px;
+      left: 6%; }
       .productoElegido .compartirRedes .compartir__boton--rosa {
         display: inline;
         float: right;
@@ -9479,11 +9479,11 @@ textarea.form-control-lg {
         left: 64%;
         margin-left: 30px; }
     .productoElegido .compartirRedes {
-      position: fixed;
+      position: absolute;
       display: flex;
       flex-direction: column;
-      top: 350px;
-      left: 80px; }
+      top: 220px;
+      left: 6%; }
       .productoElegido .compartirRedes .compartir__boton--rosa {
         display: inline;
         float: right;

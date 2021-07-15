@@ -1499,11 +1499,11 @@
         
 
         .compartirRedes{
-            position: fixed;
+            position: absolute;
             display: flex;
             flex-direction: column;
-            top: 350px;
-            left: 80px;
+            top: 220px;
+            left: 6%;
 
 
             .compartir__boton--rosa{
@@ -1641,486 +1641,486 @@
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 2000px){
-/*contacto*/
-    .fondoContacto {
-        justify-content: center;
-        height: 620px;
-        background: linear-gradient(#9FC9CC, #FCA0B2);
-
-        .formularioContacto{
-            top: 160px;
+    /*contacto*/
+        .fondoContacto {
             justify-content: center;
-            height: 480px;
-            background-color: white;
-            padding: 35px 0px;
-            border-radius: 30px;
-            margin-top: 70px;
-            text-align: center;
+            height: 620px;
+            background: linear-gradient(#9FC9CC, #FCA0B2);
 
-            .tituloFormulario{
+            .formularioContacto{
+                top: 160px;
                 justify-content: center;
-                color: #48A3A8;
-                font-weight: 100;
-                font-size: 36px;
-                text-transform: uppercase;
-            }
+                height: 480px;
+                background-color: white;
+                padding: 35px 0px;
+                border-radius: 30px;
+                margin-top: 70px;
+                text-align: center;
 
-            .campos{
-                
-                justify-content: center;
-                padding: 2% 10%;
-                height: 300px;
-
-                input{
-                    width: 93%;
-                    height: 35px;
-                    border: solid 2px #48A3A8;
-                    border-radius: 10px;
-                }
-
-                label{
-                    color: #A1A1A1;
-                    font-size: 12px;
-                    text-align: left;
-                }
-
-                .formularioDer{
-                    text-align: center;
-                    text-align: left;
-                    height: 200px;
-
-                    input{
-                        width: 100%;
-                        height: 215px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;    
-                    }   
-                }
-
-                .formularioIzq{
-                  
-
-                    text-align: left;
-                    height: 200px;
-                    
-                    .comentarios{
-                        height: 223px;
-                    }
-
-                    select{
-                        width: 93%;
-                        height: 36px;
-                        border: solid 2px #48A3A8;
-                        border-radius: 10px;
-                    }
-                }
-            }
-
-            .enviar{
-                justify-content: center;
-
-                .confirmacionEnvio{
-                    color: white;
-                    background-color:#48A3A8;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 350px;
-                }
-
-                .confirmacionEnvio:hover{
-                    color: white;
-                    background-color:#297B80;
-                    border-radius: 10px;
-                    border-style: none;
-                    height: 40px;
-                    width: 350px;
-                    box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
-                }
-            }
-        }
-    }
-/*index*/
-    .novedades{
-        opacity: 80%;
-        height:  450px;
-        margin-bottom: 25px;
-    }
-
-    .carousel-item{
-        height: 450px;
-        position: absolute;
-        background-size: cover;
-        background-position: center;
-    }
-
-    #profuctosOferta{
-        height: 400px;
-        margin-top: 55px;
-    }
-
-    #precio{
-        font-weight: 500;
-        color: $rosa-fuerte;
-        float: right;
-    }
-
-    .cardsOfertas{
-        height: 390px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        overflow: hidden;
-        margin-top: 10px ;
-        margin-bottom: 75px;
-    }
-
-    .card{
-        height: 390px;
-        width: 250px;
-        margin-left: 20px;
-    }
-
-    .card-img-top{
-        height: 150px;
-    } 
-/*eventos*/
-    #eventos{
-        text-align: center;
-        padding: 25px 150px;
-        align-items: center;
-        height: 900px;
-        
-        #eventosPrevios{
-
-            .eventosPrevios__cards{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                margin-top: 25px;
-
-                .cardEvento{ 
-                    display: inline-block;
-                    background-color: black;
-                    background-image: cover;   
-                    height: 40vh;
-                    padding: 10px;
-
-                    background-size: cover;
-
-                    .cardEvento__text{
-                        padding-top: 10%;
-                        display: none;
-                        align-content: middle;
-                        color: white;
-                    }
-                }
-
-                .cardEvento:hover{ 
-                    opacity: 50%;
-
-                    .cardEvento__text{
-                        opacity: 100%;
-                        display: block;
-                        align-content: middle;
-                        color: white;
-                        padding: 5%;
-                        font-weight: 900;
-                        -webkit-text-stroke: 1px black;
-                    }
-                }
-            }
-        }
-    }
-/*Productos*/
-    #nuestrosProductos{
-        margin: 100px 0px 0px 0px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-
-        .filtros{
-            margin-top: 20px;
-
-            li{
-                list-style: none;
-                display: inline;
-                margin-bottom: 100px;
-
-                a{
-                    color: black;
-                    margin-right: 40px;
-                    font-weight: 400;
+                .tituloFormulario{
+                    justify-content: center;
+                    color: #48A3A8;
+                    font-weight: 100;
+                    font-size: 36px;
                     text-transform: uppercase;
                 }
 
-                a:hover{
-                    color: $rosa-fuerte;
-                    font-weight: 500;
-                    text-decoration: none;
+                .campos{
+                    
+                    justify-content: center;
+                    padding: 2% 10%;
+                    height: 300px;
+
+                    input{
+                        width: 93%;
+                        height: 35px;
+                        border: solid 2px #48A3A8;
+                        border-radius: 10px;
+                    }
+
+                    label{
+                        color: #A1A1A1;
+                        font-size: 12px;
+                        text-align: left;
+                    }
+
+                    .formularioDer{
+                        text-align: center;
+                        text-align: left;
+                        height: 200px;
+
+                        input{
+                            width: 100%;
+                            height: 215px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;    
+                        }   
+                    }
+
+                    .formularioIzq{
+                      
+
+                        text-align: left;
+                        height: 200px;
+                        
+                        .comentarios{
+                            height: 223px;
+                        }
+
+                        select{
+                            width: 93%;
+                            height: 36px;
+                            border: solid 2px #48A3A8;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+
+                .enviar{
+                    justify-content: center;
+
+                    .confirmacionEnvio{
+                        color: white;
+                        background-color:#48A3A8;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 350px;
+                    }
+
+                    .confirmacionEnvio:hover{
+                        color: white;
+                        background-color:#297B80;
+                        border-radius: 10px;
+                        border-style: none;
+                        height: 40px;
+                        width: 350px;
+                        box-shadow: inset 2px 2px 5px #565656, inset -2px -2px 5px #E8E8E8;
+                    }
                 }
             }
         }
+    /*index*/
+        .novedades{
+            opacity: 80%;
+            height:  450px;
+            margin-bottom: 25px;
+        }
 
-        #navFiltros{
+        .carousel-item{
+            height: 450px;
+            position: absolute;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #profuctosOferta{
+            height: 400px;
+            margin-top: 55px;
+        }
+
+        #precio{
+            font-weight: 500;
+            color: $rosa-fuerte;
+            float: right;
+        }
+
+        .cardsOfertas{
+            height: 390px;
             display: flex;
             flex-direction: row;
-            margin: 50px 100px 30px 50px;
-            text-align: left;
-            justify-content: space-between;
-
-            h6{
-                display: inline;
-                color: $rosa-fuerte;
-                margin: 20px;
-            }
+            flex-wrap: wrap;
+            overflow: hidden;
+            margin-top: 10px ;
+            margin-bottom: 75px;
         }
-    }
-    #productos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin:0px 50px 50px 50px;
 
         .card{
-            margin: 10px;
-        }    
-    }
-    .drawerDesplegable{
-
-            .menu{
-                position: absolute;
-                left: 70px;
-                top: 331px;
-                color: $rosa-fuerte;
-            }
-
-            .checkbox{
-                display: none;
-            }
-            .checkbox:checked ~ .menu{
-                left: 270px;
-                top: 10px;
-                z-index: 3;
-                color: white;
-            }
-
-            .checkbox:checked ~ #drawer{
-                left: 0;
-            }
-
-            #drawer{
-                padding-left: 30px;
-                padding-top: 80px;
-                height: 100vh;
-                background-color: $rosa-medio;
-                position: absolute;
-                left: -300px;
-                top: 0px;
-                width: 300px;
-                z-index: 1;
-                color: white;
-                transition: left 0.8s;
-
-                #botonCarro__card{
-                    position: absolute;
-                    bottom: 150px;
-                    left: 100px
-                }
-
-                h4{
-                    margin-top: 20px;
-                    color: $gris-topo;
-                }
-
-                h5{
-                    margin-top: 40px;
-                    margin-bottom: 10px;
-                    font-weight: 400;
-                    color: $gris-topo;
-                }
-
-                label{
-                    color: $gris-topo;
-                }
-
-                .filtroPrecio{
-
-
-                    .slider{
-                        position: absolute;
-                        left: 20px;
-
-                        .valor1{
-                            position: absolute;
-                            left: 20px; 
-                        }
-                        .valor2{
-                            position: absolute;
-                            left: 200px; 
-                        }
-                   }
-                }
-            }
-    }
-/*Producto Elegido*/
-    .productoElegido{
-        padding: 130px 50px 150px 100px;
-
-        #descripcionProducto{
-            height: 80vh;
-            width: 45%;
-            padding-left: 50px;
-
-            #breadcrums{
-                color: grey;
-                margin-top: 10px;
-            }
-
-            #tituloProductoElegido{
-                margin-top: 35px;
-            }
-
-            #precioProductoElegido{
-                margin-top: 25px;
-                font-size: 24px;
-            }
-
-            #descripcionProductoElegido{
-                margin-top: 25px;
-                margin-bottom: 45px;
-            }
-
-            #selectorTamaño{
-                position: relative;
-            }
-
-            #botonCarro{
-                color: white;
-                height: 50px;
-                width: 200px;
-                background-color: $verde-esmeralada;
-                border-radius: 25px;
-                border: none;
-                text-transform: uppercase;
-                position: absolute;
-                top: 600px;
-                left: 53%;
-            }
-
-            #botonCompra{
-                color: $verde-esmeralada;
-                height: 50px;
-                width: 200px;
-                border: none;
-                text-transform: uppercase;
-                position: absolute;
-                top: 600px;
-                left: 64%;
-                margin-left: 30px;
-            }
-
+            height: 390px;
+            width: 250px;
+            margin-left: 20px;
         }
-        
 
-        .compartirRedes{
-            position: fixed;
+        .card-img-top{
+            height: 150px;
+        } 
+    /*eventos*/
+        #eventos{
+            text-align: center;
+            padding: 25px 150px;
+            align-items: center;
+            height: 900px;
+            
+            #eventosPrevios{
+
+                .eventosPrevios__cards{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    margin-top: 25px;
+
+                    .cardEvento{ 
+                        display: inline-block;
+                        background-color: black;
+                        background-image: cover;   
+                        height: 40vh;
+                        padding: 10px;
+
+                        background-size: cover;
+
+                        .cardEvento__text{
+                            padding-top: 10%;
+                            display: none;
+                            align-content: middle;
+                            color: white;
+                        }
+                    }
+
+                    .cardEvento:hover{ 
+                        opacity: 50%;
+
+                        .cardEvento__text{
+                            opacity: 100%;
+                            display: block;
+                            align-content: middle;
+                            color: white;
+                            padding: 5%;
+                            font-weight: 900;
+                            -webkit-text-stroke: 1px black;
+                        }
+                    }
+                }
+            }
+        }
+    /*Productos*/
+        #nuestrosProductos{
+            margin: 100px 0px 0px 0px;
+            text-align: center;
             display: flex;
             flex-direction: column;
-            top: 350px;
-            left: 80px;
 
+            .filtros{
+                margin-top: 20px;
 
-            .compartir__boton--rosa{
-                display: inline;
-                float: right;
-                height: 40px;
-                width: 40px;
-                background-color: $gris-topo;
-                margin-right: 50px;
-                margin-bottom: 20px;
-                text-align: center;
-                border-radius: 10px;
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin-bottom: 100px;
 
-                .boton__compartir--rosa{
-                    padding: 8px;
-                    height: 40px;
-                    text-align: center;
-                    color: white;
-                }  
-            }
-            .compartir__boton--rosa:hover{
-                background-color: $rosa-suave;
-                box-shadow: 0px 0px 10px 3px $rosa-medio;
-                transform: scale(1.1);
+                    a{
+                        color: black;
+                        margin-right: 40px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
 
-                .boton__compartir--rosa{
-                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                    a:hover{
+                        color: $rosa-fuerte;
+                        font-weight: 500;
+                        text-decoration: none;
+                    }
                 }
             }
 
-            .compartir__boton--azul{
-                display: inline;
-                float: right;
-                height: 40px;
-                width: 40x;
-                background-color: $gris-topo;
-                margin-right: 50px;
-                margin-bottom: 20px;
-                text-align: center;
-                border-radius: 10px;
+            #navFiltros{
+                display: flex;
+                flex-direction: row;
+                margin: 50px 100px 30px 50px;
+                text-align: left;
+                justify-content: space-between;
 
-                .boton__compartir--azul{
-                    padding: 8px;
-                    height: 40px;
-                    text-align: center;
-                    color: white;
-                }  
-            }
-            .compartir__boton--azul:hover{
-                background-color: $azul;
-                box-shadow: 0px 0px 10px 3px $azul;
-                transform: scale(1.1);
-
-                .boton__compartir--azul{
-                    filter: drop-shadow(0px 0px 5px $azul);
-                }
-            }
-
-            .compartir__boton--verde{
-                display: inline;
-                float: right;
-                height: 40px;
-                width: 40x;
-                background-color: $gris-topo;
-                margin-right: 50px;
-                text-align: center;
-                border-radius: 10px;
-
-                .boton__compartir--verde{
-                    padding: 8px;
-                    height: 40px;
-                    text-align: center;
-                    color: white;
-                }  
-            }
-            .compartir__boton--verde:hover{
-                background-color: $verde;
-                box-shadow: 0px 0px 10px 3px $verde;
-                transform: scale(1.1);
-
-                .boton__compartir--verde{
-                    filter: drop-shadow(0px 0px 5px $verde);
+                h6{
+                    display: inline;
+                    color: $rosa-fuerte;
+                    margin: 20px;
                 }
             }
         }
+        #productos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin:0px 50px 50px 50px;
 
-        #fotoProducto{
-            height: 80vh;
-            width: 40%;
-            background-image: url("media/card1.jpg");
-        }  
-    }
+            .card{
+                margin: 10px;
+            }    
+        }
+        .drawerDesplegable{
+
+                .menu{
+                    position: absolute;
+                    left: 70px;
+                    top: 331px;
+                    color: $rosa-fuerte;
+                }
+
+                .checkbox{
+                    display: none;
+                }
+                .checkbox:checked ~ .menu{
+                    left: 270px;
+                    top: 10px;
+                    z-index: 3;
+                    color: white;
+                }
+
+                .checkbox:checked ~ #drawer{
+                    left: 0;
+                }
+
+                #drawer{
+                    padding-left: 30px;
+                    padding-top: 80px;
+                    height: 100vh;
+                    background-color: $rosa-medio;
+                    position: absolute;
+                    left: -300px;
+                    top: 0px;
+                    width: 300px;
+                    z-index: 1;
+                    color: white;
+                    transition: left 0.8s;
+
+                    #botonCarro__card{
+                        position: absolute;
+                        bottom: 150px;
+                        left: 100px
+                    }
+
+                    h4{
+                        margin-top: 20px;
+                        color: $gris-topo;
+                    }
+
+                    h5{
+                        margin-top: 40px;
+                        margin-bottom: 10px;
+                        font-weight: 400;
+                        color: $gris-topo;
+                    }
+
+                    label{
+                        color: $gris-topo;
+                    }
+
+                    .filtroPrecio{
+
+
+                        .slider{
+                            position: absolute;
+                            left: 20px;
+
+                            .valor1{
+                                position: absolute;
+                                left: 20px; 
+                            }
+                            .valor2{
+                                position: absolute;
+                                left: 200px; 
+                            }
+                       }
+                    }
+                }
+        }
+    /*Producto Elegido*/
+        .productoElegido{
+            padding: 130px 50px 150px 100px;
+
+            #descripcionProducto{
+                height: 80vh;
+                width: 45%;
+                padding-left: 50px;
+
+                #breadcrums{
+                    color: grey;
+                    margin-top: 10px;
+                }
+
+                #tituloProductoElegido{
+                    margin-top: 35px;
+                }
+
+                #precioProductoElegido{
+                    margin-top: 25px;
+                    font-size: 24px;
+                }
+
+                #descripcionProductoElegido{
+                    margin-top: 25px;
+                    margin-bottom: 45px;
+                }
+
+                #selectorTamaño{
+                    position: relative;
+                }
+
+                #botonCarro{
+                    color: white;
+                    height: 50px;
+                    width: 200px;
+                    background-color: $verde-esmeralada;
+                    border-radius: 25px;
+                    border: none;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 600px;
+                    left: 53%;
+                }
+
+                #botonCompra{
+                    color: $verde-esmeralada;
+                    height: 50px;
+                    width: 200px;
+                    border: none;
+                    text-transform: uppercase;
+                    position: absolute;
+                    top: 600px;
+                    left: 64%;
+                    margin-left: 30px;
+                }
+
+            }
+            
+
+            .compartirRedes{
+                position: absolute;
+                display: flex;
+                flex-direction: column;
+                top: 220px;
+                left: 6%;
+
+
+                .compartir__boton--rosa{
+                    display: inline;
+                    float: right;
+                    height: 40px;
+                    width: 40px;
+                    background-color: $gris-topo;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    border-radius: 10px;
+
+                    .boton__compartir--rosa{
+                        padding: 8px;
+                        height: 40px;
+                        text-align: center;
+                        color: white;
+                    }  
+                }
+                .compartir__boton--rosa:hover{
+                    background-color: $rosa-suave;
+                    box-shadow: 0px 0px 10px 3px $rosa-medio;
+                    transform: scale(1.1);
+
+                    .boton__compartir--rosa{
+                        filter: drop-shadow(0px 0px 5px $rosa-medio);
+                    }
+                }
+
+                .compartir__boton--azul{
+                    display: inline;
+                    float: right;
+                    height: 40px;
+                    width: 40x;
+                    background-color: $gris-topo;
+                    margin-right: 50px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                    border-radius: 10px;
+
+                    .boton__compartir--azul{
+                        padding: 8px;
+                        height: 40px;
+                        text-align: center;
+                        color: white;
+                    }  
+                }
+                .compartir__boton--azul:hover{
+                    background-color: $azul;
+                    box-shadow: 0px 0px 10px 3px $azul;
+                    transform: scale(1.1);
+
+                    .boton__compartir--azul{
+                        filter: drop-shadow(0px 0px 5px $azul);
+                    }
+                }
+
+                .compartir__boton--verde{
+                    display: inline;
+                    float: right;
+                    height: 40px;
+                    width: 40x;
+                    background-color: $gris-topo;
+                    margin-right: 50px;
+                    text-align: center;
+                    border-radius: 10px;
+
+                    .boton__compartir--verde{
+                        padding: 8px;
+                        height: 40px;
+                        text-align: center;
+                        color: white;
+                    }  
+                }
+                .compartir__boton--verde:hover{
+                    background-color: $verde;
+                    box-shadow: 0px 0px 10px 3px $verde;
+                    transform: scale(1.1);
+
+                    .boton__compartir--verde{
+                        filter: drop-shadow(0px 0px 5px $verde);
+                    }
+                }
+            }
+
+            #fotoProducto{
+                height: 80vh;
+                width: 40%;
+                background-image: url("media/card1.jpg");
+            }  
+        }
 /*Sobre mi*/
     #sobreNosotros{
         margin-top: 100px;
