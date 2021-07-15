@@ -8299,6 +8299,7 @@ textarea.form-control-lg {
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
+    position: fixed;
     left: 270px;
     top: 10px;
     z-index: 3;
@@ -8310,7 +8311,7 @@ textarea.form-control-lg {
     padding-top: 80px;
     height: 100vh;
     background-color: #FCA0B2;
-    position: absolute;
+    position: fixed;
     left: -300px;
     top: 0px;
     width: 300px;
@@ -8669,6 +8670,7 @@ textarea.form-control-lg {
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
+    position: fixed;
     left: 270px;
     top: 10px;
     z-index: 3;
@@ -8680,7 +8682,7 @@ textarea.form-control-lg {
     padding-top: 80px;
     height: 100vh;
     background-color: #FCA0B2;
-    position: absolute;
+    position: fixed;
     left: -300px;
     top: 0px;
     width: 300px;
@@ -9035,6 +9037,7 @@ textarea.form-control-lg {
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
+    position: fixed;
     left: 270px;
     top: 10px;
     z-index: 3;
@@ -9046,7 +9049,7 @@ textarea.form-control-lg {
     padding-top: 80px;
     height: 100vh;
     background-color: #FCA0B2;
-    position: absolute;
+    position: fixed;
     left: -300px;
     top: 0px;
     width: 300px;
@@ -9396,6 +9399,7 @@ textarea.form-control-lg {
   .drawerDesplegable .checkbox {
     display: none; }
   .drawerDesplegable .checkbox:checked ~ .menu {
+    position: fixed;
     left: 270px;
     top: 10px;
     z-index: 3;
@@ -9407,7 +9411,7 @@ textarea.form-control-lg {
     padding-top: 80px;
     height: 100vh;
     background-color: #FCA0B2;
-    position: absolute;
+    position: fixed;
     left: -300px;
     top: 0px;
     width: 300px;
