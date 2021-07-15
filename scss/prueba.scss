@@ -52,16 +52,6 @@
         text-transform: uppercase;
     }
 
-    #botonCarro{
-        color: white;
-        height: 50px;
-        width: 200px;
-        background-color: $verde-esmeralada;
-        border-radius: 25px;
-        border: none;
-        text-transform: uppercase;
-    }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -259,6 +249,7 @@
         }
         }
     /*Productos*/
+
     #nuestrosProductos{
         margin: 100px 0px 0px 0px;
         text-align: center;
@@ -388,6 +379,167 @@
                    }
                 }
             }
+    }
+    /*Producto Elegido*/
+    .productoElegido{
+        padding: 80px 50px 150px 30px;
+
+        #descripcionProducto{
+            height: 80vh;
+            width: 90%;
+            padding-left:42px;
+
+            #breadcrums{
+                color: grey;
+                margin-top: 17px;
+            }
+
+            #tituloProductoElegido{
+                margin-top: 35px;
+            }
+
+            #precioProductoElegido{
+                margin-top: 25px;
+                font-size: 24px;
+            }
+
+            #descripcionProductoElegido{
+                margin-top: 25px;
+                margin-bottom: 45px;
+            }
+
+            #selectorTamaño{
+                position: relative;
+            }
+
+            #botonCarro{
+                color: white;
+                height: 50px;
+                width: 200px;
+                background-color: $verde-esmeralada;
+                border-radius: 25px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 1100px;
+                left: 30%;
+            }
+
+            #botonCompra{
+                color: $verde-esmeralada;
+                height: 50px;
+                width: 200px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 1100px;
+                left: 50%;
+                margin-left: 20px;
+            }
+        }
+        
+        .compartirRedes{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 680px;
+            left: 58%;
+
+            p{
+                margin-right: 20px;
+                margin-top: 4px;
+            }
+
+
+            .compartir__boton--rosa{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30px;
+                background-color: $gris-topo;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--rosa{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--rosa:hover{
+                background-color: $rosa-suave;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__compartir--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .compartir__boton--azul{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30x;
+                background-color: $gris-topo;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--azul{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--azul:hover{
+                background-color: $azul;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__compartir--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+
+            .compartir__boton--verde{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30x;
+                background-color: $gris-topo;
+                margin-right: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--verde{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--verde:hover{
+                background-color: $verde;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__compartir--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+        }
+
+        #fotoProducto{
+            height: 80vh;
+            width: 90%;
+            background-image: url("media/card1.jpg");
+        }  
     }
     /*Sobre mi*/
         #sobreNosotros{
@@ -755,6 +907,167 @@
                    }
                 }
             }
+    }
+    /*Prdoducto Elegido*/
+    .productoElegido{
+        padding: 80px 50px 150px 50px;
+
+        #descripcionProducto{
+            height: 80vh;
+            width: 90%;
+            padding-left: 100px;
+
+            #breadcrums{
+                color: grey;
+                margin-top: 17px;
+            }
+
+            #tituloProductoElegido{
+                margin-top: 35px;
+            }
+
+            #precioProductoElegido{
+                margin-top: 25px;
+                font-size: 24px;
+            }
+
+            #descripcionProductoElegido{
+                margin-top: 25px;
+                margin-bottom: 45px;
+            }
+
+            #selectorTamaño{
+                position: relative;
+            }
+
+            #botonCarro{
+                color: white;
+                height: 50px;
+                width: 200px;
+                background-color: $verde-esmeralada;
+                border-radius: 25px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 1100px;
+                left: 30%;
+            }
+
+            #botonCompra{
+                color: $verde-esmeralada;
+                height: 50px;
+                width: 200px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 1100px;
+                left: 50%;
+                margin-left: 20px;
+            }
+        }
+        
+        .compartirRedes{
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 680px;
+            left: 65%;
+
+            p{
+                margin-right: 20px;
+                margin-top: 4px;
+            }
+
+
+            .compartir__boton--rosa{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30px;
+                background-color: $gris-topo;
+                margin-right: 12%;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--rosa{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--rosa:hover{
+                background-color: $rosa-suave;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__compartir--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .compartir__boton--azul{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30x;
+                background-color: $gris-topo;
+                margin-right: 12%;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--azul{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--azul:hover{
+                background-color: $azul;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__compartir--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+
+            .compartir__boton--verde{
+                display: inline;
+                float: right;
+                height: 30px;
+                width: 30x;
+                background-color: $gris-topo;
+                margin-right: 12%;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--verde{
+                    padding: 8px;
+                    height: 30px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--verde:hover{
+                background-color: $verde;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__compartir--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+        }
+
+        #fotoProducto{
+            height: 80vh;
+            width: 90%;
+            background-image: url("media/card1.jpg");
+        }  
     }
     /*Sobre mi*/
     #sobreNosotros{
@@ -1124,6 +1437,164 @@
                    }
                 }
             }
+    }
+    /*Producto Elegido*/
+    .productoElegido{
+        padding: 80px 50px 150px 100px;
+
+        #descripcionProducto{
+            height: 80vh;
+            width: 45%;
+            padding-left: 50px;
+
+            #breadcrums{
+                color: grey;
+                margin-top: 10px;
+            }
+
+            #tituloProductoElegido{
+                margin-top: 35px;
+            }
+
+            #precioProductoElegido{
+                margin-top: 25px;
+                font-size: 24px;
+            }
+
+            #descripcionProductoElegido{
+                margin-top: 25px;
+                margin-bottom: 45px;
+            }
+
+            #selectorTamaño{
+                position: relative;
+            }
+
+            #botonCarro{
+                color: white;
+                height: 50px;
+                width: 200px;
+                background-color: $verde-esmeralada;
+                border-radius: 25px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 600px;
+                left: 53%;
+            }
+
+            #botonCompra{
+                color: $verde-esmeralada;
+                height: 50px;
+                width: 200px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 600px;
+                left: 68%;
+                margin-left: 20px;
+            }
+
+        }
+        
+
+        .compartirRedes{
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            top: 350px;
+            left: 80px;
+
+
+            .compartir__boton--rosa{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40px;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--rosa{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--rosa:hover{
+                background-color: $rosa-suave;
+                box-shadow: 0px 0px 10px 3px $rosa-medio;
+                transform: scale(1.1);
+
+                .boton__compartir--rosa{
+                    filter: drop-shadow(0px 0px 5px $rosa-medio);
+                }
+            }
+
+            .compartir__boton--azul{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--azul{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--azul:hover{
+                background-color: $azul;
+                box-shadow: 0px 0px 10px 3px $azul;
+                transform: scale(1.1);
+
+                .boton__compartir--azul{
+                    filter: drop-shadow(0px 0px 5px $azul);
+                }
+            }
+
+            .compartir__boton--verde{
+                display: inline;
+                float: right;
+                height: 40px;
+                width: 40x;
+                background-color: $gris-topo;
+                margin-right: 50px;
+                text-align: center;
+                border-radius: 10px;
+
+                .boton__compartir--verde{
+                    padding: 8px;
+                    height: 40px;
+                    text-align: center;
+                    color: white;
+                }  
+            }
+            .compartir__boton--verde:hover{
+                background-color: $verde;
+                box-shadow: 0px 0px 10px 3px $verde;
+                transform: scale(1.1);
+
+                .boton__compartir--verde{
+                    filter: drop-shadow(0px 0px 5px $verde);
+                }
+            }
+        }
+
+        #fotoProducto{
+            height: 80vh;
+            width: 40%;
+            background-image: url("media/card1.jpg");
+        }  
     }
 
     /*Sobre mi*/
@@ -1496,11 +1967,67 @@
     .productoElegido{
         padding: 130px 50px 150px 100px;
 
+        #descripcionProducto{
+            height: 80vh;
+            width: 45%;
+            padding-left: 50px;
+
+            #breadcrums{
+                color: grey;
+                margin-top: 10px;
+            }
+
+            #tituloProductoElegido{
+                margin-top: 35px;
+            }
+
+            #precioProductoElegido{
+                margin-top: 25px;
+                font-size: 24px;
+            }
+
+            #descripcionProductoElegido{
+                margin-top: 25px;
+                margin-bottom: 45px;
+            }
+
+            #selectorTamaño{
+                position: relative;
+            }
+
+            #botonCarro{
+                color: white;
+                height: 50px;
+                width: 200px;
+                background-color: $verde-esmeralada;
+                border-radius: 25px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 600px;
+                left: 53%;
+            }
+
+            #botonCompra{
+                color: $verde-esmeralada;
+                height: 50px;
+                width: 200px;
+                border: none;
+                text-transform: uppercase;
+                position: absolute;
+                top: 600px;
+                left: 64%;
+                margin-left: 30px;
+            }
+
+        }
+        
+
         .compartirRedes{
             position: fixed;
             display: flex;
             flex-direction: column;
-            top: 450px;
+            top: 350px;
             left: 80px;
 
 
@@ -1590,14 +2117,9 @@
 
         #fotoProducto{
             height: 80vh;
-            width: 45%;
+            width: 40%;
             background-image: url("media/card1.jpg");
-        }
-
-        #descripcionProducto{
-            height: 80vh;
-            width: 45%;
-        }
+        }  
     }
 /*Sobre mi*/
     #sobreNosotros{

@@ -53,8 +53,9 @@
     <div class="containter" >
         <div class="row productoElegido">
 
-            <div class="col-sm-11 col-md-10 col-lg-1 col-xl-1"> <!--Seccion de redes!-->
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"> <!--Seccion de redes!-->
                 <div class="compartirRedes">
+                    <p>Share</p>
                     <div class="compartir__boton--rosa">
                         <img class="boton__compartir--rosa" src="media/logoInsta.png">
                     </div>
@@ -67,18 +68,19 @@
                 </div>
             </div>
 
-            <div class="col-sm-11 col-md-10 col-lg-10 col-xl-6" id="fotoProducto"></div> <!--Seccion de foto!-->
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5" id="descripcionProducto"> <!--Seccion de descripcion!-->
+            <div class="col-sm-11 col-md-11 col-lg-6 col-xl-6" id="fotoProducto"></div> <!--Seccion de foto!-->
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5" id="descripcionProducto"> <!--Seccion de descripcion!-->
                 
-                <h6>Home / Productos / Piñata</h6>
-                <h2>Nuestros productos</h2>
+                <h6 id="breadcrums">Home / Productos / Piñata</h6>
+                <h2 id="tituloProductoElegido">Adorno Navideño</h2>
 
-                <h5 class="precio">$500</h5>
+                <h5 id="precioProductoElegido" class="precio">$500</h5>
 
-                <p>Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                <p id="descripcionProductoElegido">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
                     1mt de largo</p>
 
-                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <h6>Tamaño</h6>
+                <div id="selectorTamaño" class="btn-group" role="group" aria-label="Basic radio toggle button group">
                   <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                   <label class="btn btn-outline-secondary" for="btnradio1">1mt</label>
 
@@ -90,15 +92,12 @@
                 </div>
 
                 <button id="botonCarro">Agregar al carro</button>
-
-
+                <button id="botonCompra">Comprar</button>
 
             </div>
             
         </div>
     </div>
-     
-    
 
     <footer>
         <div class="container-fluid">
