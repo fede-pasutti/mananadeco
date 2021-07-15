@@ -8466,8 +8466,8 @@ textarea.form-control-lg {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin: 50px;
-      padding: 10px 100px; }
+      margin: 30px;
+      padding: 10px 80px; }
     #sobreNosotros .sectionSobreMi {
       height: 300px;
       padding: 25px 80px;
@@ -8476,9 +8476,9 @@ textarea.form-control-lg {
       align-items: center;
       width: 100%; }
       #sobreNosotros .sectionSobreMi .iconSobreMi {
-        height: 80px; }
+        height: 60px; }
       #sobreNosotros .sectionSobreMi img {
-        margin: 50px 70px; }
+        margin: 10px 40px 10px 20px; }
       #sobreNosotros .sectionSobreMi p {
         text-align: left; }
     #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
