@@ -749,8 +749,9 @@
                         display: inline-block;
                         background-color: black;
                         background-image: cover;   
-                        height: 45vh;
+                        height: 50vh;
                         padding: 10px;
+                        border: solid 5px white;
 
                         background-size: cover;
 
@@ -1260,7 +1261,7 @@
             text-align: center;
             padding: 25px 50px;
             align-items: center;
-            height: 900px;
+            height: 1100px;
             
             #eventosPrevios{
 
@@ -1274,8 +1275,9 @@
                         display: inline-block;
                         background-color: black;
                         background-image: cover;   
-                        height: 40vh;
+                        height: 50vh;
                         padding: 10px;
+                        border: solid 5px white;
 
                         background-size: cover;
 
@@ -1792,7 +1794,7 @@
             text-align: center;
             padding: 25px 150px;
             align-items: center;
-            height: 900px;
+            height: 1100px;
             
             #eventosPrevios{
 
@@ -1806,10 +1808,12 @@
                         display: inline-block;
                         background-color: black;
                         background-image: cover;   
-                        height: 40vh;
+                        height: 50vh;
                         padding: 10px;
+                        border: solid 5px white;
 
                         background-size: cover;
+
 
                         .cardEvento__text{
                             padding-top: 10%;
