@@ -201,7 +201,104 @@ footer {
 .sobreNos__logoFooter {
   height: 150px; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 575px) {
+  footer {
+    padding-top: 20px;
+    padding-left: 7%;
+    padding-bottom: 50px;
+    background-color: #2A2A2A;
+    color: white;
+    font-weight: 100;
+    align-items: center; }
+    footer .footer__sobreNos {
+      text-align: center;
+      height: 250px; }
+      footer .footer__sobreNos .sobreNos__logoFooter {
+        height: 100px; }
+      footer .footer__sobreNos .sobreNos__solgan {
+        color: white;
+        font-weight: 100; }
+    footer .footer__infoSitio {
+      height: 200px; }
+    footer .footer__contactos {
+      height: 200px; }
+    footer h3, footer .h3 {
+      color: #FFC2D1;
+      font-weight: 100;
+      margin-top: 25px; }
+    footer li {
+      list-style: none;
+      margin-top: 10px; }
+  .copyrights {
+    height: 100px; }
+    .copyrights .copyrights__textCopy {
+      color: white;
+      padding: 20px; }
+    .copyrights .copyrights__redes {
+      height: 60px;
+      padding-top: 32px; }
+      .copyrights .copyrights__redes .redes__boton--rosa {
+        display: inline;
+        float: right;
+        height: 34px;
+        width: 34x;
+        background-color: #2A2A2A;
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 10px; }
+        .copyrights .copyrights__redes .redes__boton--rosa .boton__red--rosa {
+          padding: 8px;
+          height: 34px;
+          text-align: center;
+          color: white; }
+      .copyrights .copyrights__redes .redes__boton--rosa:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 10px 3px #FCA0B2;
+        transform: scale(1.1); }
+        .copyrights .copyrights__redes .redes__boton--rosa:hover .boton__red--rosa {
+          filter: drop-shadow(0px 0px 5px #FCA0B2); }
+      .copyrights .copyrights__redes .redes__boton--verde {
+        display: inline;
+        float: right;
+        height: 34px;
+        width: 34x;
+        background-color: #2A2A2A;
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 10px; }
+        .copyrights .copyrights__redes .redes__boton--verde .boton__red--verde {
+          padding: 8px;
+          height: 34px;
+          text-align: center;
+          color: white; }
+      .copyrights .copyrights__redes .redes__boton--verde:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 10px 3px #19C63C;
+        transform: scale(1.1); }
+        .copyrights .copyrights__redes .redes__boton--verde:hover .boton__red--verde {
+          filter: drop-shadow(0px 0px 5px #19C63C); }
+      .copyrights .copyrights__redes .redes__boton--azul {
+        display: inline;
+        float: right;
+        height: 34px;
+        width: 34x;
+        background-color: #2A2A2A;
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 10px; }
+        .copyrights .copyrights__redes .redes__boton--azul .boton__red--azul {
+          padding: 8px;
+          height: 34px;
+          text-align: center;
+          color: white; }
+      .copyrights .copyrights__redes .redes__boton--azul:hover {
+        background-color: transparent;
+        box-shadow: 0px 0px 10px 3px #1936C6;
+        transform: scale(1.1); }
+        .copyrights .copyrights__redes .redes__boton--azul:hover .boton__red--azul {
+          filter: drop-shadow(0px 0px 5px #1936C6); } }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   footer {
     padding-top: 20px;
     padding-left: 7%;
