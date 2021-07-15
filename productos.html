@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -280,3 +281,287 @@
     </div>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset= "UTF-8">
+	<link rel="stylesheet" href="css/pruebacss.css">
+	<title> Manana Deco | Nuestros productos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Manana deco, todos neustros productos son realizados a mano. Inspirados en diversos diseños o en aquellos que usted quiera">
+    <meta name="keywords"  content="Diseño, Decoracion, fiestas, cumpleaños, belgrano, personalizados, atencion al cliente, guirnaldas, toppers, piñatas">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-2">
+                    <img class="logoHead" src="media/logoHeader.png">
+                </div>
+
+                <div class="col-7 col-sm-7 col-md-1 col-lg-1 col-xl-1"></div>
+
+                <div class="col-2 col-sm-2 col-md-9 col-lg-9 col-xl-9">
+
+                    <nav id="menu">
+                        
+                        <ul>
+                            <li><a href="#"><img class="iconMenu" src="media/menu.png"></a>
+
+                                <ul class="icons">
+                                    <a  href=""><img class="iconsNav" src="media/carrito.png"></a>
+                                    <a  href=""><img class="iconsNav" src="media/usuario.svg"></a>
+                                </ul>
+
+                                <ul  class="desplegado"> 
+                                    <li id="versionDesplegada"><a href="#">Perfil</a></li>
+                                    <li id="versionDesplegada"><a href="#">Carrito</a></li>
+                                    <li id="itemMenu"><a href="index.html">Home</a></li>
+                                    <li id="itemMenu"><a href="sobremi.html">Sobre Mi</a></li>
+                                    <li id="itemMenu"><a href="productos.html" id="menuSelected">Productos</a></li>
+                                    <li id="itemMenu"><a href="eventos.html">Eventos</a></li>
+                                    <li id="itemMenu"><a href="contacto.html">Contacto</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>  
+        </div>
+    </header>   
+    
+    <div class="containter" >
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" id="nuestrosProductos">
+                <h2>Nuestros productos</h2>
+                <ul  class="filtros"> 
+                    <li id="itemFiltro"><a href="">Toppers</a></li>
+                    <li id="itemFiltro"><a href="">Guirnaldas</a></li>
+                    <li id="itemFiltro"><a href="">Piñatas</a></li>
+                    <li id="itemFiltro"><a href="">Festivos</a></li>
+                    <li id="itemFiltro"><a href="">Figuras</a></li>
+                </ul>
+
+                <div id="navFiltros">
+                    <div>
+                        <h6>☰ Filtros</h6>
+                        <h7>Home / Productos</h7>
+                    </div>
+                    <div>
+                        <h6>Ordenar por ▼</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     
+    <div class="drawerDesplegable">
+        <input type="checkbox" class="checkbox" id="check">
+        <label class="menu" for="check">☰</label>
+        
+        <div id="drawer">
+            <h4>Filtros</h4>
+
+                <div class="Categorias">
+                    <h5>Categorias</h5>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Guirnaldas</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Toppers</label>
+                    </div>
+                     <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Piñatas</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Festivos</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Figuras</label>
+                    </div>
+                </div>
+
+                <div class="filtroPrecio">
+                    <h5>Filtrar por precio</h5>
+                    <div class="slider">
+                        <div class="d-flex justify-content-center my-4">
+                          <span class="font-weight-bold indigo-text mr-2 mt-1 valor1">200</span>
+                          <form class="range-field w-25">
+                            <input class="border-0" type="range" min="0" max="100" />
+                          </form>
+                          <span class="font-weight-bold indigo-text ml-2 mt-1 valor2">3000</span>
+                        </div>
+                    </div>
+                </div> 
+
+                <button id="botonCarro__card">Aplicar</button>    
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid">
+        <div  class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div  id="productos">
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$150</h5>
+                        <h5 class="card-title">Guirnalda Motocilcetas</h5>
+                        <p class="card-text">Guirnalda simple. Diseño de motos y cascos inspieradas en motos harley y kawazaky, con detalle de cascos</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$100</h5>
+                        <h5 class="card-title">Piñatas San Valentin</h5>
+                        <p class="card-text">Mini piñatas tematicas de san valentin. Diseño de osito con corazon, beso y corazon con cinta "Love"</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$175</h5>
+                        <h5 class="card-title">Corporeo dra Amor</h5>
+                        <p class="card-text">Figura de la doctora amor, listo para pegar con soporte semirigida, de regalo mini estrellas</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/card2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$100</h5>
+                        <h5 class="card-title">Mini piñata sonic</h5>
+                        <p class="card-text">Mini piñatas individuales, personaje Sonic el erizo. Capacidad para 150gr de golosinas cada una</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/card3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$400</h5>
+                        <h5 class="card-title">Piñatas medianas Amor</h5>
+                        <p class="card-text">Set de dos piñatas medianas tematica San Valentin. Modelo de beso y corazon + love, capacidad de 300gr</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/card1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$150</h5>
+                        <h5 class="card-title">Topper cumple reloj</h5>
+                        <p class="card-text">Doble topper de cumpleaños para torta y para cupcake, modelo glitter. Tematica maquina del tiempo</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Set dra y flores cristal</h5>
+                        <p class="card-text">Corporeo de la dra amor, con corona de flores doradas y papel cristal. Reforzado y listo para pegar</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="media/prod1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 id="precio">$350</h5>
+                        <h5 class="card-title">Guirnalda Navideña</h5>
+                        <p class="card-text">Guirnaldas dobles. Una de "feliz navdiad" y otra de personajes navideños
+                        1mt de largo</p>
+                        <a href="productoElegido.html"><button id="botonCompra__card" >Comprar</button></a> 
+                        <a href="productoElegido.html"><button  id="botonCarro__card" href="productoElegido.html">Agregar</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            
+            <div class="row">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4" class="footer_sobreNos">
+                    <img class="sobreNos__logoFooter" src="media/logoHeader.png">
+                    <p class="sobreNos__slogan">¡Te ayudamos a armar tu fiesta, trayendo a la vida
+                         todas tus ideas!</p>
+                </div>
+
+                <div  class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-4" class="footer__infoSitio" >
+                        
+                    <h3 class="footer_titulo">Informacion</h3>
+                    <li class="footer__list">Privacidad</li>
+                    <li class="footer__list">cookies</li>
+                    <li class="footer__list">Legales</li>
+                    <li class="footer__list">Mapa de sitio</li>
+                        
+                </div>
+
+                <div  class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-4" class="footer__contactos" >
+                        
+                    <h3 class="footer_titulo">Contacto</h3>
+                        
+                    <li class="footer__list"> Telefono: +54 1133271159 / +54 11259633</li>
+                    <li class="footer__list">Email: manana.deco@consultas.com.ar</li>
+                    <li class="footer__list">Ubicacion: Belgrano, Capital Federal, Bs. As., Argentina</li>
+                        
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrights">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-8 col-lg-8 col-xl-8">
+                    <p class="copyrights__textCopy" > Copyrights © 2021 - Diseño web realizado por Federico Pasutti </p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4 copyrights__redes">
+                    <div class="redes__boton--rosa">
+                        <img class="boton__red--rosa" src="media/logoInsta.png">
+                    </div>
+                    <div class="redes__boton--azul">
+                        <img class="boton__red--azul" src="media/logoFace.png">
+                    </div>
+                    <div class="redes__boton--verde">
+                        <img class="boton__red--verde" src="media/logoWhats.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+>>>>>>> 2b525e78e4896b1e14bcf4150d55f712f505609a
