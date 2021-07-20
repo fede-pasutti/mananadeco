@@ -203,7 +203,7 @@
         text-align: center;
         padding: 25px 25px;
         align-items: center;
-        height: 2200px;
+        height: 2400px;
         
         #eventosPrevios{
 
@@ -280,14 +280,14 @@
         #navFiltros{
             display: flex;
             flex-direction: row;
-            margin: 50px 25px 30px 50px;
+            margin: 50px 15px 30px 15px;
             text-align: left;
             justify-content: space-between;
 
             h6{
                 display: inline;
                 color: $rosa-fuerte;
-                margin: 20px;
+                margin: 10px;
             }
         }
     }
@@ -305,8 +305,8 @@
 
             .menu{
                 position: absolute;
-                left: 70px;
-                top: 331px;
+                left: 25px;
+                top: 35px;
                 color: $rosa-fuerte;
             }
 
@@ -385,13 +385,13 @@
         padding: 80px 50px 150px 30px;
 
         #descripcionProducto{
-            height: 80vh;
+            height: 600px;
             width: 90%;
             padding-left:42px;
 
             #breadcrums{
                 color: grey;
-                margin-top: 17px;
+                margin-top: 65px;
             }
 
             #tituloProductoElegido{
@@ -421,8 +421,8 @@
                 border: none;
                 text-transform: uppercase;
                 position: absolute;
-                top: 1100px;
-                left: 30%;
+                top: 1300px;
+                left: 10%;
             }
 
             #botonCompra{
@@ -432,7 +432,7 @@
                 border: none;
                 text-transform: uppercase;
                 position: absolute;
-                top: 1100px;
+                top: 1300px;
                 left: 50%;
                 margin-left: 20px;
             }
@@ -442,8 +442,8 @@
             position: absolute;
             display: flex;
             flex-direction: row;
-            top: 680px;
-            left: 58%;
+            top: 820px;
+            left: 14%;
 
             p{
                 margin-right: 20px;
@@ -536,9 +536,10 @@
         }
 
         #fotoProducto{
-            height: 80vh;
+            height: 650px;
             width: 90%;
             background-image: url("media/card1.jpg");
+            background-size: cover;
         }  
     }
     /*Sobre mi*/
@@ -553,13 +554,13 @@
             display: flex;
             flex-direction: column;
             text-align: center;
-            margin: 30px;
-            padding: 10px 80px;
+            margin: 10px;
+            padding: 10px 40px;
         }
 
         .sectionSobreMi{
             height: 300px;
-            padding: 25px 80px;
+            padding: 25px 20px;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -570,7 +571,7 @@
             }
 
             img{
-                margin: 10px 40px 10px 20px;
+                margin: 10px 30px 10px 30px;
             }
 
             p{

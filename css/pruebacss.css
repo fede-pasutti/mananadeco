@@ -230,10 +230,10 @@ footer {
       list-style: none;
       margin-top: 10px; }
   .copyrights {
-    height: 110px; }
+    height: 130px; }
     .copyrights .copyrights__textCopy {
       color: white;
-      padding: 20px; }
+      padding: 20px 20px 0px 20px; }
     .copyrights .copyrights__redes {
       height: 60px;
       padding-top: 32px; }
@@ -8321,7 +8321,7 @@ textarea.form-control-lg {
     text-align: center;
     padding: 25px 25px;
     align-items: center;
-    height: 2200px; }
+    height: 2400px; }
     #eventos #eventosPrevios .eventosPrevios__cards {
       display: flex;
       flex-direction: row;
@@ -8374,13 +8374,13 @@ textarea.form-control-lg {
     #nuestrosProductos #navFiltros {
       display: flex;
       flex-direction: row;
-      margin: 50px 25px 30px 50px;
+      margin: 50px 15px 30px 15px;
       text-align: left;
       justify-content: space-between; }
       #nuestrosProductos #navFiltros h6, #nuestrosProductos #navFiltros .h6 {
         display: inline;
         color: #FF7D89;
-        margin: 20px; }
+        margin: 10px; }
   #productos {
     display: flex;
     flex-direction: row;
@@ -8390,8 +8390,8 @@ textarea.form-control-lg {
       margin: 10px; }
   .drawerDesplegable .menu {
     position: absolute;
-    left: 70px;
-    top: 331px;
+    left: 25px;
+    top: 35px;
     color: #FF7D89; }
   .drawerDesplegable .checkbox {
     display: none; }
@@ -8442,12 +8442,12 @@ textarea.form-control-lg {
   .productoElegido {
     padding: 80px 50px 150px 30px; }
     .productoElegido #descripcionProducto {
-      height: 80vh;
+      height: 600px;
       width: 90%;
       padding-left: 42px; }
       .productoElegido #descripcionProducto #breadcrums {
         color: grey;
-        margin-top: 17px; }
+        margin-top: 65px; }
       .productoElegido #descripcionProducto #tituloProductoElegido {
         margin-top: 35px; }
       .productoElegido #descripcionProducto #precioProductoElegido {
@@ -8467,8 +8467,8 @@ textarea.form-control-lg {
         border: none;
         text-transform: uppercase;
         position: absolute;
-        top: 1100px;
-        left: 30%; }
+        top: 1300px;
+        left: 10%; }
       .productoElegido #descripcionProducto #botonCompra {
         color: #48A3A8;
         height: 50px;
@@ -8476,15 +8476,15 @@ textarea.form-control-lg {
         border: none;
         text-transform: uppercase;
         position: absolute;
-        top: 1100px;
+        top: 1300px;
         left: 50%;
         margin-left: 20px; }
     .productoElegido .compartirRedes {
       position: absolute;
       display: flex;
       flex-direction: row;
-      top: 680px;
-      left: 58%; }
+      top: 820px;
+      left: 14%; }
       .productoElegido .compartirRedes p {
         margin-right: 20px;
         margin-top: 4px; }
@@ -8551,9 +8551,10 @@ textarea.form-control-lg {
         .productoElegido .compartirRedes .compartir__boton--verde:hover .boton__compartir--verde {
           filter: drop-shadow(0px 0px 5px #19C63C); }
     .productoElegido #fotoProducto {
-      height: 80vh;
+      height: 650px;
       width: 90%;
-      background-image: url("media/card1.jpg"); }
+      background-image: url("media/card1.jpg");
+      background-size: cover; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 70px; }
@@ -8563,11 +8564,11 @@ textarea.form-control-lg {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin: 30px;
-      padding: 10px 80px; }
+      margin: 10px;
+      padding: 10px 40px; }
     #sobreNosotros .sectionSobreMi {
       height: 300px;
-      padding: 25px 80px;
+      padding: 25px 20px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -8575,7 +8576,7 @@ textarea.form-control-lg {
       #sobreNosotros .sectionSobreMi .iconSobreMi {
         height: 60px; }
       #sobreNosotros .sectionSobreMi img {
-        margin: 10px 40px 10px 20px; }
+        margin: 10px 30px 10px 30px; }
       #sobreNosotros .sectionSobreMi p {
         text-align: left; }
     #sobreNosotros .reciclaje, #sobreNosotros .personalizacion {
