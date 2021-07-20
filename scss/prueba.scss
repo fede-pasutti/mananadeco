@@ -385,7 +385,7 @@
         padding: 80px 50px 150px 30px;
 
         #descripcionProducto{
-            height: 600px;
+            height: 500px;
             width: 90%;
             padding-left:42px;
 
@@ -421,7 +421,7 @@
                 border: none;
                 text-transform: uppercase;
                 position: absolute;
-                top: 1300px;
+                top: 1100px;
                 left: 10%;
             }
 
@@ -432,7 +432,7 @@
                 border: none;
                 text-transform: uppercase;
                 position: absolute;
-                top: 1300px;
+                top: 1100px;
                 left: 50%;
                 margin-left: 20px;
             }
@@ -442,7 +442,7 @@
             position: absolute;
             display: flex;
             flex-direction: row;
-            top: 820px;
+            top: 620px;
             left: 14%;
 
             p{
@@ -536,9 +536,9 @@
         }
 
         #fotoProducto{
-            height: 650px;
+            height: 450px;
             width: 90%;
-            background-image: url("media/card1.jpg");
+            background-image: url("media/prod1.jpg");
             background-size: cover;
         }  
     }
@@ -1070,7 +1070,7 @@
         #fotoProducto{
             height: 80vh;
             width: 90%;
-            background-image: url("media/card1.jpg");
+            background-image: url("media/prod1.jpg");
         }  
     }
     /*Sobre mi*/
@@ -1600,7 +1600,7 @@
         #fotoProducto{
             height: 80vh;
             width: 90%;
-            background-image: url("media/card1.jpg");
+            background-image: url("media/prod1.jpg");
         }  
     }
     /*Sobre mi*/
@@ -2129,7 +2129,7 @@
         #fotoProducto{
             height: 80vh;
             width: 40%;
-            background-image: url("media/card1.jpg");
+            background-image: url("media/prod1.jpg");
         }  
     }
 
@@ -2657,7 +2657,9 @@
             #fotoProducto{
                 height: 80vh;
                 width: 40%;
-                background-image: url("media/card1.jpg");
+                background-image: url("media/prod1.jpg");
+                background-size: cover;
+                background-position: center;
             }  
         }
     /*Sobre mi*/

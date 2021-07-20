@@ -8442,7 +8442,7 @@ textarea.form-control-lg {
   .productoElegido {
     padding: 80px 50px 150px 30px; }
     .productoElegido #descripcionProducto {
-      height: 600px;
+      height: 500px;
       width: 90%;
       padding-left: 42px; }
       .productoElegido #descripcionProducto #breadcrums {
@@ -8467,7 +8467,7 @@ textarea.form-control-lg {
         border: none;
         text-transform: uppercase;
         position: absolute;
-        top: 1300px;
+        top: 1100px;
         left: 10%; }
       .productoElegido #descripcionProducto #botonCompra {
         color: #48A3A8;
@@ -8476,14 +8476,14 @@ textarea.form-control-lg {
         border: none;
         text-transform: uppercase;
         position: absolute;
-        top: 1300px;
+        top: 1100px;
         left: 50%;
         margin-left: 20px; }
     .productoElegido .compartirRedes {
       position: absolute;
       display: flex;
       flex-direction: row;
-      top: 820px;
+      top: 620px;
       left: 14%; }
       .productoElegido .compartirRedes p {
         margin-right: 20px;
@@ -8551,9 +8551,9 @@ textarea.form-control-lg {
         .productoElegido .compartirRedes .compartir__boton--verde:hover .boton__compartir--verde {
           filter: drop-shadow(0px 0px 5px #19C63C); }
     .productoElegido #fotoProducto {
-      height: 650px;
+      height: 450px;
       width: 90%;
-      background-image: url("media/card1.jpg");
+      background-image: url("media/prod1.jpg");
       background-size: cover; }
   /*Sobre mi*/
   #sobreNosotros {
@@ -8926,7 +8926,7 @@ textarea.form-control-lg {
     .productoElegido #fotoProducto {
       height: 80vh;
       width: 90%;
-      background-image: url("media/card1.jpg"); }
+      background-image: url("media/prod1.jpg"); }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 70px; }
@@ -9298,7 +9298,7 @@ textarea.form-control-lg {
     .productoElegido #fotoProducto {
       height: 80vh;
       width: 90%;
-      background-image: url("media/card1.jpg"); }
+      background-image: url("media/prod1.jpg"); }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }
@@ -9663,7 +9663,7 @@ textarea.form-control-lg {
     .productoElegido #fotoProducto {
       height: 80vh;
       width: 40%;
-      background-image: url("media/card1.jpg"); }
+      background-image: url("media/prod1.jpg"); }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }
@@ -10026,7 +10026,9 @@ textarea.form-control-lg {
     .productoElegido #fotoProducto {
       height: 80vh;
       width: 40%;
-      background-image: url("media/card1.jpg"); }
+      background-image: url("media/prod1.jpg");
+      background-size: cover;
+      background-position: center; }
   /*Sobre mi*/
   #sobreNosotros {
     margin-top: 100px; }
